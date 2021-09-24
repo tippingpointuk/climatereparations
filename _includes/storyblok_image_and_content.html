@@ -1,0 +1,18 @@
+<div id="{{ include.blok.id }}"
+  class="Chaos-Block-2 {% if include.blok.invert %}invert{% endif %} {% if include.blok.background_image.size > 1 %}background-image{% endif %}"
+  {% if include.blok.background_image.size > 1 %}style="background-image: url('{{ include.blok.background_image }}')"{% endif %}>
+  <div class="Chaos-Section">
+    <div class="Chaos-Wrapper-Wide Chaos-Wrapper">
+      {{ include.blok.text | render_richtext }}
+      {% if include.blok.buttons %}
+        {% include storyblok_buttons.html blok=include.blok.buttons %}
+      {% endif %}
+    </div>
+    {% if include.blok.image %}
+    <div class="Chaos-Wrapper-Wide Chaos-Wrapper">
+      <img src="{{ include.blok.image.filename }}" alt="{{ include.blok.image.alt }}">
+
+    </div>
+    {% endif %}
+  </div>
+</div>

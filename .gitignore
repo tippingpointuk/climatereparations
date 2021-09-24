@@ -1,0 +1,9 @@
+Gemfile.lock
+.jekyll-cache
+vendor
+_site
+
+test.html
+api
+
+.sass-cache

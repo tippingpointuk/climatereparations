@@ -1,0 +1,12 @@
+title: Climate Reparations March
+
+
+# Settings for your Storyblok space
+storyblok:
+  token: sAUI4XA2yvp8Q42IouyhNQtt
+  # Can be either `draft` or `published`
+  version: draft
+
+plugins:
+- jekyll-feed
+- jekyll-seo-tag

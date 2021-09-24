@@ -24,14 +24,14 @@ module Jekyll
       self.data['links'] = links
     end
   end
-  
+
   class StoryblokPageGenerator < Generator
     safe true
 
     def generate(site)
       @storyblok_config = site.config['storyblok']
       raise 'Missing Storyblok configuration in _config.yml' unless @storyblok_config
-
+      puts client.stories.to_yaml
       links = client.links['data']['links']
       stories = client.stories['data']['stories']
 
@@ -45,7 +45,8 @@ module Jekyll
     def client
       @client ||= ::Storyblok::Client.new(
         token: @storyblok_config['token'],
-        version: @storyblok_config['version']
+        version: @storyblok_config['version'],
+        api_version: 2
       )
     end
 

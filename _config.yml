@@ -5,7 +5,7 @@ title: Climate Reparations March
 storyblok:
   token: sAUI4XA2yvp8Q42IouyhNQtt
   # Can be either `draft` or `published`
-  version: draft
+  version: published
 
 plugins:
 - jekyll-feed

@@ -24,7 +24,7 @@ module Jekyll
       self.data['links'] = links
     end
   end
-  
+
   class StoryblokPageGenerator < Generator
     safe true
 
@@ -50,7 +50,13 @@ module Jekyll
     end
 
     def create_page(site, story, links)
-      site.pages << StoryblokPage.new(site, site.source, story['full_slug'], story, links)
+      puts story['full_slug'].split("/")[0]
+      if story['full_slug'].split("/")[0] == "_posts"
+        puts "A POST"
+        site.posts.docs << StoryblokPage.new(site, site.source, story['full_slug'], story, links)
+      else
+        site.pages << StoryblokPage.new(site, site.source, story['full_slug'], story, links)
+      end
 
       if story['full_slug'] == 'home'
         site.pages << StoryblokPage.new(site, site.source, '', story, links)

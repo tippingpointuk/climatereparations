@@ -3,7 +3,7 @@ require "storyblok"
 
 module StoryblokRender
   def render_richtext(richtext)
-    puts richtext
+    # puts richtext
     # " richtext init "
     storyblok_config = @context.registers[:site].config['storyblok']
     client ||= ::Storyblok::Client.new(

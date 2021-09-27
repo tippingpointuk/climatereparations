@@ -16,7 +16,7 @@
                 <div class="Chaos-Flex-Line">
                     <a href="#{{ page.jump.target | slugify }}"><span class="Chaos-Button">{{ page.jump.text }}</span></a>
                 </div>
-            </div> 
+            </div>
             {% endif %}
         {% endif %}
 
@@ -47,6 +47,8 @@
           {% include storyblok_{{ blok.component }}.html blok=blok %}
         {% endfor %}
 
+        {{ content }}
+        
         {% if page.end_quote %}
         <div class="Chaos-Section Chaos-PullQuote">
             <div class="Chaos-Wrapper-Wide">

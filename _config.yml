@@ -7,6 +7,13 @@ storyblok:
   # Can be either `draft` or `published`
   version: draft
 
+background_color: "#e5eeff"
+brand_color: "#4674e5"
+accent_color: "#98c3f0"
+
+invert_brand_text: true
+invert_accent_text: true
+
 plugins:
 - jekyll-feed
 - jekyll-seo-tag

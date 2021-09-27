@@ -7,6 +7,9 @@ storyblok:
   # Can be either `draft` or `published`
   version: published
 
+invert_brand_text: true
+invert_accent_text: true
+
 plugins:
 - jekyll-feed
 - jekyll-seo-tag

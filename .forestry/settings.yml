@@ -1,6 +1,7 @@
 ---
 new_page_extension: md
 auto_deploy: false
+<<<<<<< HEAD
 admin_path: admin
 webhook_url: ''
 sections:
@@ -46,6 +47,19 @@ sections:
   label: Main Site Config
 upload_dir: assets/images
 public_path: "/assets/images"
+=======
+admin_path: 
+webhook_url: 
+sections:
+- type: jekyll-posts
+  label: Posts
+  create: all
+- type: jekyll-pages
+  label: Pages
+  create: all
+upload_dir: uploads
+public_path: "/uploads"
+>>>>>>> 332ca0b32eb922687680eb741f1f682c9ccd8561
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
@@ -58,4 +72,8 @@ build:
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
+<<<<<<< HEAD
     -d _site --trace
+=======
+    -d _site
+>>>>>>> 332ca0b32eb922687680eb741f1f682c9ccd8561

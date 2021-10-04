@@ -2,16 +2,15 @@
 title: Climate Reparations March
 email: ''
 tagline: ''
-description: |-
-
+description: ''
 url: https://climatereparations.earth
 permalink: pretty
 background_color: "#e5eeff"
 brand_color: rgb(70, 116, 229)
 accent_color: rgb(70, 116, 229)
-logo: ""
-logo_light: ""
-logo_square: ""
+logo: ''
+logo_light: ''
+logo_square: ''
 invert_brand_text: true
 invert_accent_text: true
 instagram: ''
@@ -47,26 +46,26 @@ defaults:
     sitemap: false
 airtable:
   faqs:
-    app: app9apHbqOifmolTX
-    table: tblJHaJ0bOGLiXs9Q
-    view: viwMR1I5H8JtypsIR
+    app: appbeeVjgr5W02dS6
+    table: tbldebpIkoJcQcJ7T
+    view: viwOD88M982tud2am
   resources:
-    app: app9apHbqOifmolTX
-    table: tblGAJiIeFlD6PxNI
-    view: viwBQ8s617LvMdODw
+    app: appbeeVjgr5W02dS6
+    table: tbl6L6exCwnCfk3kI
+    view: viwIriKfsUAns3dC4
   partners:
-    app: app9apHbqOifmolTX
-    table: tbl3erzSL6dZfNkZi
-    view: viwcwyl4ejOXEUaS0
+    app: appbeeVjgr5W02dS6
+    table: tblfczlNzhMZaUFX5
+    view: viwHjDl8cE01GsdYx
     fields:
     - Title
     - URL
     - Image
     - Summary
   trainings:
-    app: app9apHbqOifmolTX
-    table: tblr8deZvWPtDpT8z
-    view: viwmoConiofljNaYn
+    app: appbeeVjgr5W02dS6
+    table: tblMD4QGJXvsxylfm
+    view: viwRCbXQV9t0kB6vL
     fields:
     - Content
     - Title

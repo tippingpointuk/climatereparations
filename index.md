@@ -34,11 +34,11 @@ blocks:
     # Partners
 
     This day of action is supported by a number of UK groups.  We are working closely with allied networks all around the world.
+
+    {% include partner-list.html background='light' %}
   buttons:
   - text: Add your group
-    target: "/partners/#register-group"
-  - target: "/partners"
-    text: See all partners
+    target: "https://airtable.com/shrU9RuY0Vbe9iMZ1"
   decoration: ''
   map: false
   background_image: ''
@@ -56,10 +56,8 @@ header:
 
     Our economic, political and social infrastructures are failing to protect life, and need repairing. At the COP26 Coalition’s 6 November 2021 Global Day of Climate Justice London rally, we’ll be standing with organisers from London Renters Union, No More Exclusions, Revoke and others to co-lead a reparations bloc demanding systems change.
   buttons:
-  - text: Sign Up
+  - text: Join
     target: "#join"
-  - text: Act Now
-    target: "#map"
   border_bottom:
     image: ''
     reflect: true

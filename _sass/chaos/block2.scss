@@ -31,7 +31,14 @@
           fill: $brand-text-color;
           color: $brand-text-color;
         }
-
+      }
+      > .content{
+        > p{
+          color: $brand-text-color;
+          > * {
+            color: $brand-text-color;
+          }
+        }
       }
     }
 
@@ -57,7 +64,7 @@
     }
   }
   img{
-    box-shadow: $spacing-unit $spacing-unit $brand-color;
+    // box-shadow: $spacing-unit $spacing-unit $brand-color;
   }
   .Chaos-Wrapper {
     display: flex;

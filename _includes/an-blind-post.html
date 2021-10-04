@@ -40,7 +40,10 @@
           .prop('selected', false);
         $('#action-network-blind-post-success').html('<p><strong>Thanks!</strong></p>');
       },
-
+      fail: function(jqXHR, textStatus, errorThrown) {
+        console.log('fail');
+        $('#action-network-blind-post-success').html('<p>Looks like that didn\'t work!</p>');
+      },
     });
   });
 </script>

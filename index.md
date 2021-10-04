@@ -33,7 +33,7 @@ blocks:
 - text: |-
     # Partners
 
-    This day of action is supported by a number of UK groups.  We are working closely with allied networks all around the world.
+    This day of action is supported by a number of UK groups.
 
     {% include partner-list.html background='light' %}
   buttons:

@@ -91,7 +91,7 @@ header:
     Our economic, political and social infrastructures are failing to protect life, and need repairing. At the COP26 Coalition’s 6 November 2021 Global Day of Climate Justice London rally, we’ll be standing with organisers from London Renters Union, No More Exclusions, Revoke and others to co-lead a reparations bloc demanding systems change.
   buttons:
   - text: Sign Up
-    target: "#sign-up"
+    target: "#join"
   - text: Act Now
     target: "#map"
   border_bottom:

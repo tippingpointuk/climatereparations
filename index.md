@@ -10,27 +10,6 @@ blocks:
   map: false
   background_image: ''
   id: why
-- buttons:
-  - text: All trainings
-    target: "/trainings"
-  text: |-
-    # Training and Action Planning Sessions
-
-    {% assign events = site.trainings | sort: "start_date" %}
-    {% include events-gallery.html date_field='start_date' %}
-  decoration: ''
-  background_image: "/assets/images/41363513_1776146282501405_6945596299618025472_o-600x600.jpeg"
-  map: false
-  id: trainings
-- buttons: []
-  text: |-
-    # Resources
-
-    {% include resources.html %}
-  decoration: ''
-  map: false
-  background_image: ''
-  id: ''
 - buttons: []
   text: |-
     # Get updates
@@ -40,17 +19,6 @@ blocks:
   map: false
   background_image: ''
   id: join
-- buttons:
-  - text: See all
-    target: "/stories"
-  - text: Share a story
-    target: mailto:stories@defundclimatechaos.uk
-  text: "# Stories\n\n{% assign posts = site.posts %}  \n{% include blog-list.html
-    limit=4 thumbnail=true date=false alternate_direction=true %}"
-  decoration: "![](/assets/images/23-04-21-lloyds-london-coal-protest-gareth-morris-19.jpg)"
-  map: false
-  background_image: ''
-  id: stories
 - buttons: []
   text: |-
     # Find out more

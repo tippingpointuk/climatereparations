@@ -47,7 +47,7 @@ credits: ''
 header:
   full: true
   image:
-    link: "/assets/images/money-faucet.png"
+    link: ""
     location: left
   text: |-
     #### Countdown to march: {% include counter.html %}

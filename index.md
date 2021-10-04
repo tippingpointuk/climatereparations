@@ -3,36 +3,10 @@ layout: page
 image: ''
 blocks:
 - buttons:
-  - text: Register an action
-    target: https://actionnetwork.org/events/new?event_campaign_id=13806
-  - text: Join an action
-    target: "#map"
+  - text: Read more
+    target: "#"
   decoration: "![](/assets/images/red_lines_cop21_paris_2015.jpeg)"
-  text: |-
-    # What’s happening?
-
-    On October 29, the youth climate movement around the world want you to join them and demand that bankers, insurers and fund managers **Defund Climate Chaos**.
-
-    On the eve of UN climate talks, led by communities on the frontline of climate impacts, people will lay climate justice memorials outside the UK’s biggest fossil financiers to make it clear at whose doorstep the blame for the climate crisis lies.
-
-    It’s past time to turn off the money pipeline to oil, coal and gas companies and start investing in climate justice and a safer future for us all.
-  map: false
-  background_image: ''
-  id: what
-- buttons:
-  - target: "#what-s-happening-on-october-29th"
-    text: Read more
-  text: |-
-    # Why?
-
-    ## **With enough people power, we can force financiers to defund climate chaos. Join us.**
-
-    We’ve all heard that the climate crisis means “**code red for humanity**”. We see the reality raging around us with floods, wildfires and storms every day.
-
-    Yet whilst the planet literally burns, the UK’s biggest financiers keep pouring billions of pounds each year into fuelling the fire. **Barclays, HSBC, Lloyds of London** to name just a few - they are failing us.
-
-    Climate justice demands that we harness our people power to shut off the money pipeline to oil, coal and gas immediately.
-  decoration: "![](/assets/images/alarm.png)"
+  text: "# Why we’re planning the reparations bloc"
   map: false
   background_image: ''
   id: why
@@ -62,10 +36,6 @@ blocks:
 - buttons: []
   text: |-
     # Get updates
-
-    Sign up to get all the latest news and materials you'll need to take action on October 29.
-
-    [Find an event on the map](https://defundclimatechaos.uk/#map) to attend near you or [sign up to host your own event](https://actionnetwork.org/events/04aef390f9ed2e182154029889a339e3e6b27d36/edit).
 
     {% include signup-form.html %}
   decoration: "![](/assets/images/climate-justice-now-sign-yacap-climate-strike-2020.png)"
@@ -97,7 +67,7 @@ blocks:
 - text: |-
     # Partners
 
-    This day of action is supported by a number of UK groups.  We are working closely with allied networks all around the world as part of the [Defund Climate Chaos global day of action](http://defundclimatechaos.org).
+    This day of action is supported by a number of UK groups.  We are working closely with allied networks all around the world.
   buttons:
   - text: Add your group
     target: "/partners/#register-group"

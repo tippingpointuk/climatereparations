@@ -120,14 +120,14 @@ header:
     link: "/assets/images/money-faucet.png"
     location: left
   text: |-
-    #### Countdown to 29 October: {% include counter.html %}
+    #### Countdown to march: {% include counter.html %}
 
-    # Turn off the money pipeline to fossil fuels. Now.
+    # Climate Reparations Bloc
 
-    UK banks, investors and insurers are fuelling climate chaos by pumping billions of pounds into fossil fuels each year.
-
-    On **October 29th**, ahead of UN climate talks, groups around the world are rising up to demand that governments and corporations **#DefundClimateChaos**.
+    Our economic, political and social infrastructures are failing to protect life, and need repairing. At the COP26 Coalition’s 6 November 2021 Global Day of Climate Justice London rally, we’ll be standing with organisers from London Renters Union, No More Exclusions, Revoke and others to co-lead a reparations bloc demanding systems change.
   buttons:
+  - text: Sign Up
+    target: "#sign-up"
   - text: Act Now
     target: "#map"
   border_bottom:

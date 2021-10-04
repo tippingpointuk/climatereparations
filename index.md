@@ -1,6 +1,6 @@
 ---
 layout: page
-image: "/assets/images/og-image.png"
+image: ''
 blocks:
 - buttons:
   - text: Register an action
@@ -19,12 +19,6 @@ blocks:
   map: false
   background_image: ''
   id: what
-- map: true
-  text: ''
-  buttons: []
-  decoration: ''
-  background_image: ''
-  id: ''
 - buttons:
   - target: "#what-s-happening-on-october-29th"
     text: Read more
@@ -131,7 +125,7 @@ header:
   - text: Act Now
     target: "#map"
   border_bottom:
-    image: "/assets/images/money-border.gif"
+    image: ''
     reflect: true
 invert: odd
 

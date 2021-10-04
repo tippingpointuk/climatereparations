@@ -3,15 +3,17 @@ layout: page
 tags: []
 title: Stop Start Demands
 top_image: ''
-top_quote: ''
+top_quote: These Stop and Start demands reflect our shared understanding that there
+  can be no climate justice without gender, racial, social, economic, health, migrant
+  or environmental justice.
 image: ''
 credits: ''
+permalink: demands
 summary: ''
 menu:
   header:
     weight: 1
     title: Demands
-published: false
 
 ---
 This November, Boris Johnson’s government hosts one of the most important international meetings of all time -- the UN climate crisis conference known as **COP26**. This short document hopes to bring community-based groups working on a range of local issues across the UK together, to help push the UK government to show real, justice-centred leadership in this crucial year. It summarises what UK and global climate justice movements are calling for, and what tests we could set to push for climate justice and real UK leadership as we build an intersectional and inclusive movement up to and beyond the COP26 in Glasgow. These **Stop** and **Start demands** reflect our shared understanding that there can be no climate justice without gender, racial, social, economic, health, migrant or environmental justice. We have to transform the whole system and that starts at the community-level.
@@ -32,13 +34,13 @@ The first thing to do when you find yourself in a hole is to **stop** digging. T
 
 ### **Real climate leadership from the UK government would mean they STOP:**
 
-* **\[ \] coal, oil, gas and fracking projects**
-* **\[ \] giving public money to polluting industries**
-* **\[ \] banks, insurers and other private financiers from supporting and profiting from fossil fuel extraction**
-* **\[ \] fossil-fuelled militarisation and new infrastructure like roads and airports**
-* **\[ \] debt collection from global south countries and marginalised communities within the UK**
-* **\[ \] hostile migration policies**
-* **\[ \] privatising public spaces and community infrastructure**
+* coal, oil, gas and fracking projects
+* giving public money to polluting industries
+* banks, insurers and other private financiers from supporting and profiting from fossil fuel extraction
+* fossil-fuelled militarisation and new infrastructure like roads and airports
+* debt collection from global south countries and marginalised communities within the UK
+* hostile migration policies
+* privatising public spaces and community infrastructure
 
 # **START DEMANDS**
 
@@ -46,13 +48,13 @@ The first thing to do when you find yourself in a hole is to **stop** digging. T
 
 ### **Real climate leadership from the UK government would mean they START to:**
 
-* **\[ \] make polluters like coal, oil and gas companies pay climate reparations**
-* **\[ \] invest in good, green jobs, especially for workers transitioning from high carbon industries and projects and those hit hardest by climate impacts, Covid-19, and precarity**
-* **\[ \] democratise housing, community infrastructure, and land access with strong social protection policies**
-* **\[ \] pay for the climate harms that the UK drives around the world**
-* **\[ \] democratise the financial industry to force a just transition**
-* **\[ \] reverse cuts to Overseas Aid and promote debt relief and cancellation**
-* **\[ \] democratise corporations continuing to extract and exploit abroad**
-* **\[ \] create safe ways for people to migrate with dignity**
-* **\[ \] giving decision making power to communities on the frontline of health, climate, economic, and social injustice**
-* **\[ \] enable young people to co-create education that serves well-being for thriving and sustainable communities**
+* make polluters like coal, oil and gas companies pay climate reparations
+* invest in good, green jobs, especially for workers transitioning from high carbon industries and projects and those hit hardest by climate impacts, Covid-19, and precarity
+* democratise housing, community infrastructure, and land access with strong social protection policies
+* pay for the climate harms that the UK drives around the world
+* democratise the financial industry to force a just transition
+* reverse cuts to Overseas Aid and promote debt relief and cancellation
+* democratise corporations continuing to extract and exploit abroad
+* create safe ways for people to migrate with dignity
+* giving decision making power to communities on the frontline of health, climate, economic, and social injustice
+* enable young people to co-create education that serves well-being for thriving and sustainable communities

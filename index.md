@@ -5,7 +5,7 @@ blocks:
 - buttons:
   - text: Read more
     target: "#"
-  decoration: "![](/assets/images/red_lines_cop21_paris_2015.jpeg)"
+  decoration: ''
   text: "# Why we’re planning the reparations bloc"
   map: false
   background_image: ''

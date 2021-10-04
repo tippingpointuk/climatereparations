@@ -18,7 +18,7 @@ menu:
 ---
 This November, Boris Johnson’s government hosts one of the most important international meetings of all time -- the UN climate crisis conference known as **COP26**. This short document hopes to bring community-based groups working on a range of local issues across the UK together, to help push the UK government to show real, justice-centred leadership in this crucial year. It summarises what UK and global climate justice movements are calling for, and what tests we could set to push for climate justice and real UK leadership as we build an intersectional and inclusive movement up to and beyond the COP26 in Glasgow. These **Stop** and **Start demands** reflect our shared understanding that there can be no climate justice without gender, racial, social, economic, health, migrant or environmental justice. We have to transform the whole system and that starts at the community-level.
 
-## **Climate justice means 1.5C to stay alive**
+## Climate justice means 1.5C to stay alive
 
 To keep our planet livable for everyone, including the most exposed and marginalised among us, we need to **keep global heating to no more than 1.5C temperature increase**. Our world is already nearly 1.2C hotter. Those least responsible are already paying the highest price and have the least resources to protect themselves from raging climate impacts.
 
@@ -28,11 +28,11 @@ We are hearing greenwash pledges to get to ‘Net Zero’ with techno-fixes and 
 
 The first thing to do when you find yourself in a hole is to **stop** digging. There are red lines the UK government cannot cross if it wants to maintain credibility as a genuine climate leader. And it must **start** providing the care and reparations that communities here and around the world need to protect themselves and repair the damage already done. We hope you will join us in coming together to call for the UK to meet our **stop** and **start** demands.
 
-# **STOP DEMANDS**
+# STOP DEMANDS
 
-## **Climate justice means keeping fossil fuels in the ground, right now.**
+## Climate justice means keeping fossil fuels in the ground, right now.
 
-### **Real climate leadership from the UK government would mean they STOP:**
+### Real climate leadership from the UK government would mean they STOP:
 
 * coal, oil, gas and fracking projects
 * giving public money to polluting industries
@@ -42,11 +42,11 @@ The first thing to do when you find yourself in a hole is to **stop** digging. T
 * hostile migration policies
 * privatising public spaces and community infrastructure
 
-# **START DEMANDS**
+# START DEMANDS
 
-## **Climate justice means securing finance for the care and repair our communities and planet deserve**
+## Climate justice means securing finance for the care and repair our communities and planet deserve
 
-### **Real climate leadership from the UK government would mean they START to:**
+### Real climate leadership from the UK government would mean they START to:
 
 * make polluters like coal, oil and gas companies pay climate reparations
 * invest in good, green jobs, especially for workers transitioning from high carbon industries and projects and those hit hardest by climate impacts, Covid-19, and precarity
@@ -58,3 +58,7 @@ The first thing to do when you find yourself in a hole is to **stop** digging. T
 * create safe ways for people to migrate with dignity
 * giving decision making power to communities on the frontline of health, climate, economic, and social injustice
 * enable young people to co-create education that serves well-being for thriving and sustainable communities
+
+# Sign demands
+
+{% include an-blind-post.html petition="https://actionnetwork.org/api/v2/petitions/81ea4655-f544-43eb-b3c4-ace557bafef7/" %}

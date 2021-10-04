@@ -38,7 +38,7 @@ blocks:
     {% include partner-list.html background='light' %}
   buttons:
   - text: Add your group
-    target: "https://airtable.com/shrU9RuY0Vbe9iMZ1"
+    target: https://airtable.com/shrU9RuY0Vbe9iMZ1
   decoration: ''
   map: false
   background_image: ''
@@ -47,14 +47,14 @@ credits: ''
 header:
   full: true
   image:
-    link: ""
+    link: ''
     location: left
   text: |-
     #### Countdown to march: {% include counter.html %}
 
     # Climate Reparations Bloc
 
-    Our economic, political and social infrastructures are failing to protect life, and need repairing. At the COP26 Coalition’s 6 November 2021 Global Day of Climate Justice London rally, we’ll be standing with organisers from London Renters Union, No More Exclusions, Revoke and others to co-lead a reparations bloc demanding systems change.
+    Our economic, political and social infrastructures are failing to protect life, and need repairing. At the COP26 Coalition’s 6 November 2021 Global Day of Climate Justice London rally, we’ll be standing with organisers from London Renters Union, No More Exclusions, Revoke and others to co-lead a reparations bloc demanding systems change. Gathering from 11am at the Bank of England.
   buttons:
   - text: Join
     target: "#join"

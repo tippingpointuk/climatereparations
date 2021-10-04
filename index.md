@@ -26,8 +26,6 @@ blocks:
   text: |-
     # Resources
 
-    Here are all the resources you’ll need to join or organise an action of your own to #DefundClimateChaos on October 29 (and beyond!):
-
     {% include resources.html %}
   decoration: ''
   map: false

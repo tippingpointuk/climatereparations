@@ -37,7 +37,7 @@ blocks:
   text: |-
     # Get updates
 
-    {% include signup-form.html %}
+    {% include event-signup %}
   decoration: "![](/assets/images/climate-justice-now-sign-yacap-climate-strike-2020.png)"
   map: false
   background_image: ''

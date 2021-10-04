@@ -11,7 +11,9 @@ description: |-
   #DefundClimateChaos.
 url: https://defundclimatechaos.uk
 permalink: pretty
-background_color: "#FFF0E3"
+background_color: "#e5eeff"
+brand_color: rgb(70, 116, 229)
+accent_color: rgb(70, 116, 229)
 logo: "/assets/logo_long_uncondenced.svg"
 logo_light: "/assets/logo_light.svg"
 logo_square: "/assets/logo.svg"

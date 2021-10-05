@@ -1,9 +1,9 @@
 ---
-title: Climate Reparations March
+title: Climate Reparations
 email: ''
 tagline: ''
-description: ''
-url: https://climatereparations.earth
+description: There can be no climate justice without gender, racial, social, economic, health, migrant or environmental justice.
+url: https://climatereparations.uk
 permalink: pretty
 background_color: "#e5eeff"
 brand_color: rgb(70, 116, 229)
@@ -81,12 +81,8 @@ airtable:
 jekyll_get_json:
 - data: events
   json: https://raw.githubusercontent.com/tippingpointuk/an-event-campaign-map/master/events.json
-map:
-  lat: ''
-  lng: ''
 plugins:
 - jekyll-feed
 - jekyll-liquify
 - jekyll-leaflet
 - jekyll-get-json
-nav_links: []

@@ -62,3 +62,7 @@ The first thing to do when you find yourself in a hole is to **stop** digging. T
 # Sign demands
 
 {% include an-blind-post.html petition="https://actionnetwork.org/api/v2/petitions/81ea4655-f544-43eb-b3c4-ace557bafef7/" %}
+
+# FAQs
+
+{% include accordion.html data=site.data.faqs %}

@@ -16,7 +16,7 @@ invert_accent_text: true
 instagram: ''
 twitter: ''
 facebook: ''
-counter: 29-Oct-2021 9am
+counter: 06-Nov-2021 11am
 timezone: Europe/London
 future: true
 copyright_notice: With thanks to [David Gundry](https://www.davidgundry.co.uk/) for
@@ -56,7 +56,7 @@ airtable:
   partners:
     app: appbeeVjgr5W02dS6
     table: tblfczlNzhMZaUFX5
-    view: viwHjDl8cE01GsdYx
+    view: viweY75HGX6wZo6AR
     fields:
     - Title
     - URL

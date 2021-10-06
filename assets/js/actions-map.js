@@ -53,7 +53,9 @@ var titleLayer = L.tileLayer(
   }
 ).addTo(actionsMap);
 
-var markerCluster = L.markerClusterGroup();
+var markerCluster = L.markerClusterGroup({
+  maxClusterRadius: 40,
+});
 
 for (i in actionsData["events"]){
   var markerLocation = actionsData["events"][i]["location"]["location"];

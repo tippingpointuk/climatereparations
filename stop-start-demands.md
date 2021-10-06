@@ -29,7 +29,7 @@ The first thing to do when you find yourself in a hole is to **stop** digging. T
 
 # STOP DEMANDS
 
-## Climate justice means keeping fossil fuels in the ground, right now.
+> Climate justice means keeping fossil fuels in the ground, right now.
 
 ### Real climate leadership from the UK government would mean they STOP:
 
@@ -43,7 +43,7 @@ The first thing to do when you find yourself in a hole is to **stop** digging. T
 
 # START DEMANDS
 
-## Climate justice means securing finance for the care and repair our communities and planet deserve
+> Climate justice means securing finance for the care and repair our communities and planet deserve
 
 ### Real climate leadership from the UK government would mean they START to:
 

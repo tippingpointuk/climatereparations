@@ -9,7 +9,9 @@ top_quote: These Stop and Start demands reflect our shared understanding that th
 image: ''
 credits: ''
 permalink: demands
-summary: ''
+summary: These Stop and Start demands reflect our shared understanding that there
+  can be no climate justice without gender, racial, social, economic, health, migrant
+  or environmental justice.
 menu:
   header:
     weight: 1

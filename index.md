@@ -3,8 +3,8 @@ layout: page
 image: ''
 blocks:
 - buttons:
-  - text: Read more
-    target: "#"
+  - text: Stop demands
+    target: "#demands"
   decoration: ''
   text: |-
     ## Climate justice means 1.5C to stay alive

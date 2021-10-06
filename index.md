@@ -6,7 +6,7 @@ blocks:
   - text: Stop demands
     target: "#demands"
   - text: Start demands
-    target: "#demands-stop"
+    target: "#demands-start"
   decoration: ''
   text: |-
     ## Climate justice means 1.5C to stay alive
@@ -80,12 +80,12 @@ header:
   image:
     link: ''
     location: left
-  text: |-
-    #### Countdown to march: {% include counter.html %}
-
-    # Climate Reparations Bloc
-
-    Our economic, political and social infrastructures are failing to protect life, and need repairing. At the COP26 Coalition’s 6 November 2021 Global Day of Climate Justice London rally, we’ll be standing with organisers from London Renters Union, No More Exclusions, Revoke and others to co-lead a reparations bloc demanding systems change. Gathering from 11am at the Bank of England.
+  text: "#### Countdown to march: {% include counter.html %}\n\n# Climate Reparations
+    Bloc\n\n## Gathering from 11am at the Bank of England.\n\nOur economic, political
+    and social infrastructures are failing to protect life, and need repairing. At
+    the COP26 Coalition’s 6 November 2021 Global Day of Climate Justice London rally,
+    we’ll be standing with organisers from London Renters Union, No More Exclusions,
+    Revoke and others to co-lead a reparations bloc demanding systems change. "
   buttons:
   - text: Demands
     target: "#demands"

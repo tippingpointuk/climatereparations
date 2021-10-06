@@ -1,11 +1,4 @@
 ---
-footer:
-- url: "/#join"
-  weight: 2
-  title: Sign Up
-- url: "/partners"
-  title: Partners
-  weight: 1
 header:
 - url: "/#join"
   weight: 1
@@ -13,3 +6,10 @@ header:
 - weight: 2
   url: "/#demands"
   title: Demands
+footer:
+- url: "/#join"
+  weight: 2
+  title: Sign Up
+- url: "/partners"
+  title: Partners
+  weight: 1

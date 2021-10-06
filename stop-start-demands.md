@@ -1,7 +1,7 @@
 ---
 layout: page
 tags: []
-title: Stop Start Demands
+title: Demands
 top_image: ''
 top_quote: These Stop and Start demands reflect our shared understanding that there
   can be no climate justice without gender, racial, social, economic, health, migrant
@@ -13,7 +13,6 @@ summary: ''
 menu:
   header:
     weight: 1
-    title: Demands
 
 ---
 This November, Boris Johnson’s government hosts one of the most important international meetings of all time -- the UN climate crisis conference known as **COP26**. This short document hopes to bring community-based groups working on a range of local issues across the UK together, to help push the UK government to show real, justice-centred leadership in this crucial year. It summarises what UK and global climate justice movements are calling for, and what tests we could set to push for climate justice and real UK leadership as we build an intersectional and inclusive movement up to and beyond the COP26 in Glasgow. These **Stop** and **Start demands** reflect our shared understanding that there can be no climate justice without gender, racial, social, economic, health, migrant or environmental justice. We have to transform the whole system and that starts at the community-level.

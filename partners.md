@@ -2,7 +2,7 @@
 layout: page
 title: Partners
 top_image: ''
-top_quote: "“We’re not going to let the banks bring down the entire planet too”"
+top_quote: ''
 image: "/assets/images/og-image.png"
 main_nav_exclude: true
 footer_nav_include: true

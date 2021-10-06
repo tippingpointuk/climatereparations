@@ -10,15 +10,27 @@ blocks:
   map: false
   background_image: ''
   id: why
+
 - buttons: []
   text: |-
-    # Get updates
+    # We demand that the UK Government
 
-    {% include event-signup %}
-  decoration: "![](/assets/images/climate-justice-now-sign-yacap-climate-strike-2020.png)"
+    {% assign demands =  site.data.demands | where: "type", "Stop" %}
+    {% include demands.html demands=demands %}
+  decoration: ''
   map: false
   background_image: ''
-  id: join
+  id: demands
+- buttons: []
+  text: |-
+    # And instead:
+
+    {% assign demands =  site.data.demands | where: "type", "Start to" %}
+    {% include demands.html demands=demands %}
+  decoration: ''
+  map: false
+  background_image: ''
+  id: demands-start
 - buttons: []
   text: |-
     # Find out more
@@ -30,10 +42,20 @@ blocks:
   map: false
   background_image: ''
   id: faqs
+- buttons: []
+  text: |-
+    # Get updates
+
+    {% include event-signup %}
+  decoration: "![](/assets/images/climate-justice-now-sign-yacap-climate-strike-2020.png)"
+  map: false
+  background_image: ''
+  id: join
+
 - text: |-
     # Partners
 
-    This day of action is supported by a number of UK groups.
+    This bloc is supported by a number of UK organisations and collectives.
 
     {% include partner-list.html background='light' %}
   buttons:
@@ -56,8 +78,8 @@ header:
 
     Our economic, political and social infrastructures are failing to protect life, and need repairing. At the COP26 Coalition’s 6 November 2021 Global Day of Climate Justice London rally, we’ll be standing with organisers from London Renters Union, No More Exclusions, Revoke and others to co-lead a reparations bloc demanding systems change. Gathering from 11am at the Bank of England.
   buttons:
-  - text: Join
-    target: "#join"
+  - text: Demands
+    target: "#demands"
   border_bottom:
     image: ''
     reflect: true

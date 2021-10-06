@@ -35,13 +35,8 @@ The first thing to do when you find yourself in a hole is to **stop** digging. T
 
 ### Real climate leadership from the UK government would mean they STOP:
 
-* coal, oil, gas and fracking projects
-* giving public money to polluting industries
-* banks, insurers and other private financiers from supporting and profiting from fossil fuel extraction
-* fossil-fuelled militarisation and new infrastructure like roads and airports
-* debt collection from global south countries and marginalised communities within the UK
-* hostile migration policies
-* privatising public spaces and community infrastructure
+{% assign demands =  site.data.demands | where: "type", "Stop" %}
+{% include demands.html demands=demands %}
 
 # START DEMANDS
 
@@ -49,16 +44,8 @@ The first thing to do when you find yourself in a hole is to **stop** digging. T
 
 ### Real climate leadership from the UK government would mean they START to:
 
-* make polluters like coal, oil and gas companies pay climate reparations
-* invest in good, green jobs, especially for workers transitioning from high carbon industries and projects and those hit hardest by climate impacts, Covid-19, and precarity
-* democratise housing, community infrastructure, and land access with strong social protection policies
-* pay for the climate harms that the UK drives around the world
-* democratise the financial industry to force a just transition
-* reverse cuts to Overseas Aid and promote debt relief and cancellation
-* democratise corporations continuing to extract and exploit abroad
-* create safe ways for people to migrate with dignity
-* giving decision making power to communities on the frontline of health, climate, economic, and social injustice
-* enable young people to co-create education that serves well-being for thriving and sustainable communities
+{% assign demands =  site.data.demands | where: "type", "Start to" %}
+{% include demands.html demands=demands %}
 
 # Sign demands
 

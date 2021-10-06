@@ -62,22 +62,10 @@ airtable:
     - URL
     - Image
     - Summary
-  trainings:
-    app: appbeeVjgr5W02dS6
-    table: tblMD4QGJXvsxylfm
-    view: viwRCbXQV9t0kB6vL
-    fields:
-    - Content
-    - Title
-    - Summary
-    - Image
-    - Booking link
-    - Start Date
-    - End date
-    collection:
-      slug: title
-      layout: event
-      content: content
+  demands:
+    app:   appbeeVjgr5W02dS6
+    table: tblM8icDWIdPicHZS
+    view: viwtvRVZyEyH8s3Ml
 jekyll_get_json:
 - data: events
   json: https://raw.githubusercontent.com/tippingpointuk/an-event-campaign-map/master/events.json

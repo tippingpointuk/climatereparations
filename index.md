@@ -6,11 +6,19 @@ blocks:
   - text: Read more
     target: "#"
   decoration: ''
-  text: "# Why we’re planning the reparations bloc"
+  text: |-
+    ## Climate justice means 1.5C to stay alive
+
+    To keep our planet livable for everyone, including the most exposed and marginalised among us, we need to **keep global heating to no more than 1.5C temperature increase**. Our world is already nearly 1.2C hotter. Those least responsible are already paying the highest price and have the least resources to protect themselves from raging climate impacts.
+
+    The UK has an outsized historic responsibility to do its [fair share](https://waronwant.org/sites/default/files/20-21_FairShareUK_Infographic_web.pdf) and lead the world in meeting the global climate goal of 1.5C set by the Paris Agreement. Our country is disproportionately responsible for carbon emissions after profiting for over 400 years from slavery, colonialism and the continued extraction and exploitation of communities in the Global South.
+
+    We are hearing greenwash pledges to get to ‘Net Zero’ with techno-fixes and more false solutions. **Net zero is NOT zero**. To meet the UK’s fair share of 1.5C to stay alive, we need a rapid and justice-centred transition to get to **real zero carbon emissions by 2030.** That’s just 9 years from now. So how do we get there and how can we force our government to go about it equitably?
+
+    The first thing to do when you find yourself in a hole is to **stop** digging. There are red lines the UK government cannot cross if it wants to maintain credibility as a genuine climate leader. And it must **start** providing the care and reparations that communities here and around the world need to protect themselves and repair the damage already done. We hope you will join us in coming together to call for the UK to meet our **stop** and **start** demands.
   map: false
   background_image: ''
   id: why
-
 - buttons: []
   text: |-
     # We demand that the UK Government
@@ -51,7 +59,6 @@ blocks:
   map: false
   background_image: ''
   id: join
-
 - text: |-
     # Partners
 

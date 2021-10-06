@@ -5,6 +5,8 @@ blocks:
 - buttons:
   - text: Stop demands
     target: "#demands"
+  - text: Start demands
+    target: "#demands-stop"
   decoration: ''
   text: |-
     ## Climate justice means 1.5C to stay alive

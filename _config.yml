@@ -70,7 +70,5 @@ jekyll_get_json:
 - data: events
   json: https://raw.githubusercontent.com/tippingpointuk/an-event-campaign-map/master/events.json
 plugins:
-- jekyll-feed
-- jekyll-liquify
-- jekyll-leaflet
+- jekyll-airtable-import
 - jekyll-get-json

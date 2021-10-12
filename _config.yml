@@ -5,6 +5,9 @@ tagline: 'Climate Justice Now!'
 description: There can be no climate justice without gender, racial, social, economic, health, migrant or environmental justice.
 url: https://climatereparations.uk
 permalink: pretty
+
+theme: jekyll-theme-chaos
+
 background_color: "#e5eeff"
 brand_color: rgb(70, 116, 229)
 accent_color: rgb(70, 116, 229)

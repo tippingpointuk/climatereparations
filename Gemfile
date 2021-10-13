@@ -11,7 +11,7 @@ gem "jekyll", "~> 4.2.0"
 
 # The theme
 
-gem "jekyll-theme-chaos"
+gem "jekyll-theme-chaos", git: "https://github.com/tippingpointuk/jekyll-theme-chaos", branch: "v0.1.0"
 
 group :jekyll_plugins do
   gem "jekyll-airtable-import", "~> 0.1.0"
@@ -23,6 +23,6 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", "~> 1.2"
   gem "tzinfo-data"
 end
- 
+
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]

@@ -11,7 +11,7 @@ gem "jekyll", "~> 4.2.0"
 
 # The theme
 
-gem "jekyll-theme-chaos", git: "https://github.com/tippingpointuk/jekyll-theme-chaos", branch: "v0.1.0"
+gem "jekyll-theme-chaos", git: "https://github.com/tippingpointuk/jekyll-theme-chaos", branch: "v0.1.1"
 
 group :jekyll_plugins do
   gem "jekyll-airtable-import", "~> 0.1.0"

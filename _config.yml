@@ -8,30 +8,24 @@ permalink: pretty
 
 theme: jekyll-theme-chaos
 
-background_color: "#e5eeff"
-brand_color: rgb(70, 116, 229)
-accent_color: rgb(70, 116, 229)
+background_color: "#f4c6dc"
+brand_color: "#9e61ae"
+accent_color: "#f69008"
 logo: ''
 logo_light: ''
 logo_square: ''
 invert_brand_text: true
-invert_accent_text: true
+invert_accent_text: false
 instagram: ''
 twitter: ''
 facebook: ''
 counter: 06-Nov-2021 11am
 timezone: Europe/London
 future: true
-copyright_notice: With thanks to [David Gundry](https://www.davidgundry.co.uk/) for
-  the base theme.
+copyright_notice: ''
 collections:
   posts:
-    permalink: "/stories/:title/"
-  faqs:
-    output: true
-    permalink: "/faqs/:title/"
-  trainings:
-    output: true
+    permalink: "/posts/:title/"
   actions:
     output: true
   resources:
@@ -69,9 +63,6 @@ airtable:
     app:   appbeeVjgr5W02dS6
     table: tblM8icDWIdPicHZS
     view: viwtvRVZyEyH8s3Ml
-jekyll_get_json:
-- data: events
-  json: https://raw.githubusercontent.com/tippingpointuk/an-event-campaign-map/master/events.json
+
 plugins:
 - jekyll-airtable-import
-- jekyll-get-json

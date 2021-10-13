@@ -11,7 +11,7 @@ gem "jekyll", "~> 4.2.0"
 
 # The theme
 
-gem "jekyll-theme-chaos", path: "/home/joe/Documents/Work/TippingPointUK/jekyll-chaos"
+gem "jekyll-theme-chaos"
 
 group :jekyll_plugins do
   gem "jekyll-airtable-import", "~> 0.1.0"

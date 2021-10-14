@@ -19,7 +19,7 @@ blocks:
 
     The first thing to do when you find yourself in a hole is to **stop** digging. There are red lines the UK government cannot cross if it wants to maintain credibility as a genuine climate leader. And it must **start** providing the care and reparations that communities here and around the world need to protect themselves and repair the damage already done. We hope you will join us in coming together to call for the UK to meet our **stop** and **start** demands.
   map: false
-  background_image: "/assets/images/whatsapp-image-2021-10-11-at-20-53-42.jpeg"
+  background_image: ''
   id: why
 - buttons: []
   text: |-

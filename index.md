@@ -1,6 +1,6 @@
 ---
 layout: page
-image: "/assets/images/whatsapp-image-2021-10-11-at-20-53-42.jpeg"
+image: "/assets/images/reparations-poster-fb-cover.png"
 blocks:
 - buttons:
   - text: Stop demands

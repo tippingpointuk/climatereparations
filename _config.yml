@@ -66,3 +66,4 @@ airtable:
 
 plugins:
 - jekyll-airtable-import
+- jekyll-menus

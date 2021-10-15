@@ -80,13 +80,16 @@ header:
   image:
     link: ''
     location: left
-  text: "#### In {% include counter.html %}, we march.\n\n# Climate Reparations Bloc\n\n##
-    Gather from 11am at the Bank of England.\n\nOur economic, political and social
-    infrastructures are failing to protect life, and need repairing. \n\nAt the COP26
-    Coalition’s 6 November 2021 Global Day of Climate Justice London rally, organisers
-    from Wretched of the Earth, Stop the Mangazanami, London Renters Union, No More
-    Exclusions, Revoke, Platform, Tipping Point and others will co-lead a reparations
-    bloc demanding systems change."
+  text: |-
+    #### We march in {% include counter.html %}
+
+    # Climate Reparations Bloc
+
+    ## Gather from 11am at the Bank of England.
+
+    Our economic, political and social infrastructures are failing to protect life, and need repairing.
+
+    At the COP26 Coalition’s 6 November 2021 Global Day of Climate Justice London rally, organisers from Wretched of the Earth, Stop the Mangazanami, London Renters Union, No More Exclusions, Revoke, Platform, Tipping Point and others will co-lead a reparations bloc demanding systems change.
   buttons:
   - text: RSVP
     target: join

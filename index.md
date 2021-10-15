@@ -84,7 +84,7 @@ header:
   image:
     link: ''
     location: left
-  text: "#### Countdown to march: {% include counter.html %}\n\n# Climate Reparations
+  text: "#### In {% include counter.html %}, we march.\n\n# Climate Reparations
     Bloc\n\n## Gather from 11am at the Bank of England.\n\nOur economic, political
     and social infrastructures are failing to protect life, and need repairing. \n\nAt
     the COP26 Coalition’s 6 November 2021 Global Day of Climate Justice London rally,

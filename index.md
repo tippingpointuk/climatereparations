@@ -32,6 +32,8 @@ blocks:
   text: |-
     # We demand that the UK Government
 
+    The first thing to do when you find yourself in a hole is to **stop** digging. There are red lines the UK government cannot cross if it wants to maintain credibility as a genuine climate leader at COP26. Our government must **start** providing the care and reparations that communities here and around the world need to protect themselves and repair the damage already done. We hope you will join our groups in coming together on 6th November to call for the UK to meet these **Stop** and **Start** **demands**.
+
     {% assign demands =  site.data.demands | where: "type", "Stop" %}
     {% include demands.html demands=demands %}
   decoration: ''

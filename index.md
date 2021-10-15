@@ -48,7 +48,7 @@ blocks:
 
     {% assign demands =  site.data.demands | where: "type", "Start to" %}
     {% include demands.html demands=demands %}
-  decoration: "##### Our government must **start** providing the care and reparations
+  decoration: "> ## Our government must **start** providing the care and reparations
     that communities here and around the world need to protect themselves and repair
     the damage already done."
   map: false
@@ -84,13 +84,13 @@ header:
   image:
     link: ''
     location: left
-  text: "#### In {% include counter.html %}, we march.\n\n# Climate Reparations
-    Bloc\n\n## Gather from 11am at the Bank of England.\n\nOur economic, political
-    and social infrastructures are failing to protect life, and need repairing. \n\nAt
-    the COP26 Coalition’s 6 November 2021 Global Day of Climate Justice London rally,
-    organisers from Wretched of the Earth, Stop the Mangazanami, London Renters Union,
-    No More Exclusions, Revoke, Platform, Tipping Point and others will co-lead a
-    reparations bloc demanding systems change."
+  text: "#### In {% include counter.html %}, we march.\n\n# Climate Reparations Bloc\n\n##
+    Gather from 11am at the Bank of England.\n\nOur economic, political and social
+    infrastructures are failing to protect life, and need repairing. \n\nAt the COP26
+    Coalition’s 6 November 2021 Global Day of Climate Justice London rally, organisers
+    from Wretched of the Earth, Stop the Mangazanami, London Renters Union, No More
+    Exclusions, Revoke, Platform, Tipping Point and others will co-lead a reparations
+    bloc demanding systems change."
   buttons:
   - text: RSVP
     target: join

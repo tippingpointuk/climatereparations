@@ -64,7 +64,7 @@ blocks:
 - text: |-
     # Partners
 
-    This bloc is supported by a number of UK organisations and collectives.
+    This bloc is supported by a number of UK organisations and collectives and is part of the [global day for climate justice](https://cop26coalition.org/gda/) organised by the COP26 Coalition.
 
     {% include partner-list.html background='light' %}
   buttons:

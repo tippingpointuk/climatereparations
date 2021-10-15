@@ -2,6 +2,15 @@
 layout: page
 image: "/assets/images/reparations-poster-fb-cover.png"
 blocks:
+- buttons: []
+  text: |-
+    # Join us
+
+    {% include event-signup %}
+  decoration: "![](/assets/images/whatsapp-image-2021-10-11-at-20-53-42.jpeg)"
+  map: false
+  background_image: ''
+  id: join
 - buttons:
   - text: Stop demands
     target: "#demands"
@@ -52,15 +61,6 @@ blocks:
   map: false
   background_image: ''
   id: faqs
-- buttons: []
-  text: |-
-    # Get updates
-
-    {% include event-signup %}
-  decoration: "![](/assets/images/whatsapp-image-2021-10-11-at-20-53-42.jpeg)"
-  map: false
-  background_image: ''
-  id: join
 - text: |-
     # Partners
 

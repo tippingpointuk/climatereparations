@@ -93,7 +93,7 @@ header:
     At the COP26 Coalition’s 6 November 2021 Global Day of Climate Justice London rally, organisers from Wretched of the Earth, Stop the Mangazanami, London Renters Union, No More Exclusions, Revoke, Platform, Tipping Point and others will co-lead a reparations bloc demanding systems change.
   buttons:
   - text: RSVP
-    target: join
+    target: "#join"
   - text: Demands
     target: "#demands"
   border_bottom:

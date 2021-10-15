@@ -29,16 +29,12 @@ blocks:
   background_image: ''
   id: why
 - buttons: []
-  text: |-
-    # We demand that the UK Government
+  text: "# We demand that the UK Government: \n\n{% assign demands =  site.data.demands
+    | where: \"type\", \"Stop\" %}\n{% include demands.html demands=demands %}"
+  decoration: |-
+    ## The first thing to do when you find yourself in a hole is to **stop** digging.
 
-    {% assign demands =  site.data.demands | where: "type", "Stop" %}
-    {% include demands.html demands=demands %}
-  decoration: "## The first thing to do when you find yourself in a hole is to **stop**
-    digging. \n\n##### There are red lines the UK government cannot cross if it wants
-    to maintain credibility as a genuine climate leader at COP26.  We hope you will
-    join our groups in coming together on 6th November to call for the UK to meet
-    these **Stop** and **Start** **demands**."
+    > #### There are red lines the UK government cannot cross if it wants to maintain credibility as a genuine climate leader at COP26.  We hope you will join our groups in coming together on 6th November to call for the UK to meet these **Stop** and **Start** **demands**.
   map: false
   background_image: ''
   id: demands

@@ -48,7 +48,9 @@ blocks:
 
     {% assign demands =  site.data.demands | where: "type", "Start to" %}
     {% include demands.html demands=demands %}
-  decoration: ''
+  decoration: "##### Our government must **start** providing the care and reparations
+    that communities here and around the world need to protect themselves and repair
+    the damage already done."
   map: false
   background_image: ''
   id: demands-start

@@ -41,6 +41,8 @@ defaults:
     path: admin/index.html
   values:
     sitemap: false
+include:
+  - _redirects
 airtable:
   faqs:
     app: appbeeVjgr5W02dS6

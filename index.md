@@ -25,8 +25,6 @@ blocks:
     The UK has an outsized historic responsibility to do its [fair share](https://waronwant.org/sites/default/files/20-21_FairShareUK_Infographic_web.pdf) and lead the world in meeting the global climate goal of 1.5C set by the Paris Agreement. Our country is disproportionately responsible for carbon emissions after profiting for over 400 years from slavery, colonialism and the continued extraction and exploitation of communities in the Global South.
 
     We are hearing greenwash pledges to get to ‘Net Zero’ with techno-fixes and more false solutions. **Net zero is NOT zero**. To meet the UK’s fair share of 1.5C to stay alive, we need a rapid and justice-centred transition to get to **real zero carbon emissions by 2030.** That’s just 9 years from now. So how do we get there and how can we force our government to go about it equitably?
-
-    The first thing to do when you find yourself in a hole is to **stop** digging. There are red lines the UK government cannot cross if it wants to maintain credibility as a genuine climate leader. And it must **start** providing the care and reparations that communities here and around the world need to protect themselves and repair the damage already done. We hope you will join our groups in coming together on 6th November to call for the UK to meet these **Stop** and **Start** **demands**.
   map: false
   background_image: ''
   id: why

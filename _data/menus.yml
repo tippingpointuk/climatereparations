@@ -7,15 +7,15 @@ footer:
   weight: 2
   title: Sign up
 header:
-- url: "/#FAQs"
-  weight: 4
-  title: FAQs
-- url: "/#why"
-  weight: 3
-  title: Why
-- url: "/#demands"
-  weight: 2
-  title: Demands
 - url: "/#join"
   weight: 1
   title: Join
+- url: "/#why"
+  weight: 3
+  title: Why
+- url: "/#find-out-more"
+  weight: 4
+  title: FAQs
+- url: "/#demands"
+  weight: 2
+  title: Demands

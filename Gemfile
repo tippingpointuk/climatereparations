@@ -12,8 +12,8 @@ gem "jekyll", "~> 4.2.0"
 gem 'nokogiri'
 
 # The theme
-gem "jekyll-theme-chaos", path: "/home/joe/Documents/Work/TippingPointUK/jekyll-chaos"
-# gem "jekyll-theme-chaos", git: "https://github.com/tippingpointuk/jekyll-theme-chaos", branch: "v0.1.1"
+# gem "jekyll-theme-chaos", path: "/home/joe/Documents/Work/TippingPointUK/jekyll-chaos"
+gem "jekyll-theme-chaos", git: "https://github.com/tippingpointuk/jekyll-theme-chaos", branch: "v0.1.1"
 
 group :jekyll_plugins do
   gem "jekyll-airtable-import", "~> 0.1.0"

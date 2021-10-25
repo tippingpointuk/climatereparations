@@ -49,10 +49,14 @@ airtable:
     app: appbeeVjgr5W02dS6
     table: tbldebpIkoJcQcJ7T
     view: viwOD88M982tud2am
-  resources:
+  posts:
     app: appbeeVjgr5W02dS6
     table: tbl6L6exCwnCfk3kI
     view: viwIriKfsUAns3dC4
+    collection:
+      slug: slug
+      content: content
+      layout: post
   partners:
     app: appbeeVjgr5W02dS6
     table: tblfczlNzhMZaUFX5

@@ -19,3 +19,6 @@ header:
 - url: "/#demands"
   weight: 2
   title: Demands
+- url: "/#posts"
+  weight: 5
+  title: Blog

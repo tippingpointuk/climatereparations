@@ -1,6 +1,6 @@
 ---
 layout: page
-image: "/assets/images/reparations-poster-fb-cover.png"
+image: "/assets/images/reparationsblock-og.png"
 blocks:
 - buttons: []
   text: |-

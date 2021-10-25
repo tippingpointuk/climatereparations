@@ -6,6 +6,8 @@ blocks:
   text: |-
     # Join us
 
+    If you can't make it to London, make sure to check all the other amazing actions happening on the 6th November on [the COP26 Coalition main website](https://cop26coalition.org/map/ "Map of actions, local hubs and regions")
+
     {% include event-signup %}
   decoration: "![](/assets/images/whatsapp-image-2021-10-11-at-20-53-42.jpeg)"
   map: false
@@ -89,8 +91,6 @@ header:
     ## Gather from 11am at the Bank of England.
 
     Our economic, political and social infrastructures are failing to protect life, and need repairing.
-
-
 
     At the COP26 Coalition’s 6 November 2021 Global Day of Climate Justice London rally, organisers from {{ partners }} and [others](#partners) will co-lead a reparations bloc demanding systems change.
   buttons:

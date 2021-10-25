@@ -6,3 +6,10 @@ header:
 - url: "/#demands"
   weight: 1
   title: Demands
+footer:
+- url: "/#join"
+  weight: 2
+  title: Sign up
+- url: "/#demands"
+  weight: 1
+  title: Demands

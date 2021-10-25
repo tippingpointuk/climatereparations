@@ -1,0 +1,7 @@
+p{
+  color: red;
+}
+:root{
+  --blah: "foo";
+}
+@debug "Custom imported"

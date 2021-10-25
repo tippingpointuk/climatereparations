@@ -77,7 +77,7 @@ blocks:
 credits: ''
 header:
   full: true
-  background_image: "/assets/images/dandelionsnpeople.png"
+  background_image: "/assets/images/dandelionsnpeople_small.png"
   image:
     link: ''
     location: left

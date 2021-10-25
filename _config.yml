@@ -11,9 +11,10 @@ theme: jekyll-theme-chaos
 background_color: "#f4c6dc"
 brand_color: "#9e61ae"
 accent_color: "#f69008"
-logo: ''
-logo_light: ''
-logo_square: ''
+heading_font: 'Permanent Marker'
+logo: '/assets/images/logo_text_yellow.png'
+logo_light: '/assets/images/logo_text_white.png'
+logo_square: '/assets/images/icon_small_yellow.png'
 invert_brand_text: true
 invert_accent_text: false
 instagram: ''

@@ -9,13 +9,14 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 4.2.0"
 
-# The theme
+gem 'nokogiri'
 
-gem "jekyll-theme-chaos", git: "https://github.com/tippingpointuk/jekyll-theme-chaos", branch: "v0.1.1"
+# The theme
+gem "jekyll-theme-chaos", path: "/home/joe/Documents/Work/TippingPointUK/jekyll-chaos"
 
 group :jekyll_plugins do
   gem "jekyll-airtable-import", "~> 0.1.0"
-  gem "jekyll-get-json", "~> 1.0"
+  # gem "jekyll-get-json", "~> 1.0"
 end
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.

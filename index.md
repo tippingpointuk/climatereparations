@@ -6,7 +6,7 @@ blocks:
   text: |-
     # Join us
 
-    If you can't make it to London, make sure to check all the other amazing actions happening on the 6th November on [the COP26 Coalition main website](https://cop26coalition.org/map/ "Map of actions, local hubs and regions")
+    If you can't make it to London, make sure to check all the other expected action on the 6th November on [the COP26 Coalition main website](https://cop26coalition.org/map/ "Map of actions, local hubs and regions")
 
     {% include event-signup %}
   decoration: "![](/assets/images/whatsapp-image-2021-10-11-at-20-53-42.jpeg)"

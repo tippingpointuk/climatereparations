@@ -7,9 +7,9 @@ footer:
   weight: 2
   title: Sign up
 header:
-- url: "/#partners"
+- url: "/#FAQs"
   weight: 4
-  title: Who
+  title: FAQs
 - url: "/#why"
   weight: 3
   title: Why

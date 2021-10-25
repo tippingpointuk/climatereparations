@@ -1,15 +1,21 @@
 ---
-header:
-- url: "/#join"
-  weight: 2
-  title: Sign up
-- url: "/#demands"
-  weight: 1
-  title: Demands
 footer:
-- url: "/#join"
-  weight: 2
-  title: Sign up
 - url: "/#demands"
   weight: 1
   title: Demands
+- url: "/#join"
+  weight: 2
+  title: Sign up
+header:
+- url: "/#partners"
+  weight: 4
+  title: Who
+- url: "/#why"
+  weight: 3
+  title: Why
+- url: "/#demands"
+  weight: 2
+  title: Demands
+- url: "/#join"
+  weight: 1
+  title: Join

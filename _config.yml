@@ -11,7 +11,7 @@ theme: jekyll-theme-chaos
 background_color: "#f4c6dc"
 brand_color: "#9e61ae"
 accent_color: "#f69008"
-heading_font: 'Permanent Marker'
+heading_font: 'Coiny'
 logo: '/assets/images/logo_text_yellow.png'
 logo_light: '/assets/images/logo_text_white.png'
 logo_square: '/assets/images/icon_small_yellow.png'

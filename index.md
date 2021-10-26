@@ -93,7 +93,7 @@ header:
 
     # Climate Reparations Bloc
 
-    ## Gather from 11am at the Bank of England.
+    ## Gather from 11:30am at the Bank of England.
 
     Our economic, political and social infrastructures are failing to protect life, and need repairing.
 

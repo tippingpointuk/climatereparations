@@ -69,7 +69,7 @@ blocks:
     {% assign posts = site.posts %}
     {% include blog-list.html %}
 - text: |-
-    # Partners
+    # Co-leaders
 
     This bloc is supported by a number of UK organisations and collectives as part of the [global day for climate justice](https://cop26coalition.org/gda/) organised by the COP26 Coalition. Join our Bloc by adding your group or organisation below.
 
@@ -80,7 +80,7 @@ blocks:
   decoration: ''
   map: false
   background_image: ''
-  id: partners
+  id: groups
 credits: ''
 header:
   full: true
@@ -97,7 +97,7 @@ header:
 
     Our economic, political and social infrastructures are failing to protect life, and need repairing.
 
-    At the COP26 Coalition’s 6 November 2021 Global Day of Climate Justice London rally, organisers from {{ partners }} and [others](#partners) will co-lead a reparations bloc demanding systems change.
+    At the COP26 Coalition’s 6 November 2021 Global Day of Climate Justice London rally, organisers from {{ partners }} and [others](#groups) will co-lead a reparations bloc demanding systems change.
   buttons:
   - text: RSVP
     target: "#join"

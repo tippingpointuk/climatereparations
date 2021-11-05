@@ -2,13 +2,17 @@
 layout: page
 image: "/assets/images/reparationsblock-og.png"
 blocks:
+- embed: |-
+    {% include curator.html %}
 - buttons: []
   text: |-
     # Join us
 
-    If you can't make it to London, make sure to check all the other expected action on the 6th November on [the COP26 Coalition main website](https://cop26coalition.org/map/ "Map of actions, local hubs and regions")
+    Sign on to our [stop/start demands](#demands) to join us in working towards
+    climate reparations. Your data will be processed according to our
+    [privacy policy](https://tippingpointuk.org/privacy).
 
-    {% include event-signup %}
+    {% include an-blind-post.html petition="https://actionnetwork.org/api/v2/petitions/81ea4655-f544-43eb-b3c4-ace557bafef7/" %}
   decoration: "![](/assets/images/whatsapp-image-2021-10-11-at-20-53-42.jpeg)"
   map: false
   background_image: ''
@@ -46,6 +50,10 @@ blocks:
 
     {% assign demands =  site.data.demands | where: "type", "Start to" %}
     {% include demands.html demands=demands %}
+
+    ## Sign demands
+
+    {% include an-blind-post.html petition="https://actionnetwork.org/api/v2/petitions/81ea4655-f544-43eb-b3c4-ace557bafef7/" %}
   decoration: "> ## Our government must **start** providing the care and reparations
     that communities here and around the world need to protect themselves and repair
     the damage already done."
@@ -89,18 +97,18 @@ header:
     link: ''
     location: left
   text: |-
-    ## Climate Reparations Bloc
+    # Climate Reparations Bloc
 
-    # {% include counter.html %}
-
-    ### Gather from 11:30am at the Bank of England.
+    ## Happening now!
 
     Our economic, political and social infrastructures are failing to protect life, and need repairing.
 
-    At the COP26 Coalition’s 6 November 2021 Global Day of Climate Justice London rally, organisers from {{ partners }} and [others](#groups) will co-lead a reparations bloc demanding systems change.
+    During today's Global Day of Climate Justice London rally, organisers from
+    {{ partners }} and [others](#groups) are co-leading a reparations bloc
+    demanding systems change.
   buttons:
-  - text: RSVP
-    target: "#join"
+  - text: Live content
+    target: "#feed"
   - text: Demands
     target: "#demands"
   border_bottom:

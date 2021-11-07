@@ -2,8 +2,13 @@
 layout: page
 image: "/assets/images/reparationsblock-og.png"
 blocks:
-- embed: |-
-    {% include curator.html %}
+- embed: "{% include curator.html %}"
+  map: false
+  text: ''
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
 - buttons: []
   text: |-
     # Join us
@@ -76,6 +81,11 @@ blocks:
 
     {% assign posts = site.posts %}
     {% include blog-list.html %}
+  map: false
+  id: ''
+  buttons: []
+  decoration: ''
+  background_image: ''
 - text: |-
     # Co-leaders
 
@@ -97,15 +107,11 @@ header:
     link: ''
     location: left
   text: |-
-    # Climate Reparations Bloc
+    # Climate Reparations
 
-    ## Happening now!
+    Our economic, political and social infrastructures are failing to protect life, and need repairing. On 6th November, we marched from the Bank of England
 
-    Our economic, political and social infrastructures are failing to protect life, and need repairing. Our march started at 12 noon outside the Bank of England.
-
-    During today's Global Day of Climate Justice London rally, organisers from
-    {{ partners }} and [others](#groups) are co-leading a reparations bloc
-    demanding systems change.
+    Co-lead by  {{ partners }} and [others](#groups). We demand systems change.
   buttons:
   - text: Live content
     target: "#feed"

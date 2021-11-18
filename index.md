@@ -2,13 +2,6 @@
 layout: page
 image: "/assets/images/reparationsblock-og.png"
 blocks:
-- embed: "{% include curator.html %}"
-  map: false
-  text: ''
-  id: ''
-  buttons: []
-  decoration: ''
-  background_image: ''
 - buttons: []
   text: |-
     # Join us
@@ -113,10 +106,10 @@ header:
 
     Co-lead by  {{ partners }} and [others](#groups). We demand systems change.
   buttons:
-  - text: Live content
-    target: "#feed"
   - text: Demands
     target: "#demands"
+  - text: Join Us
+    target: "#join"
   border_bottom:
     image: ''
     reflect: true

@@ -1,6 +1,6 @@
 ---
 layout: page
-image: "/assets/images/reparationsblock-og.png"
+image: ''
 blocks:
 - buttons: []
   text: |-

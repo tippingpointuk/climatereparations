@@ -1,9 +1,11 @@
 ---
 slug: an-forms
 template: |-
-    # {{ page.title }}
+  # {{ page.title }}
 
-    {{ content }}
+  {{ content }}
 
-    {{ form }}
+  {{ form }}
+title: Action Network Forms
+
 ---

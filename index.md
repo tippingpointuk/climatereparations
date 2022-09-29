@@ -24,13 +24,18 @@ blocks:
     # And instead:
 
     {% assign demands =  site.data.demands | where: "type", "Start to" %} {% include demands.html demands=demands %}
-
-    ## Sign demands
-
-    {% include an-blind-post.html petition="https://actionnetwork.org/api/v2/petitions/81ea4655-f544-43eb-b3c4-ace557bafef7/" %}
   map: false
   background_image: ''
   id: demands-start-stop
+- map: false
+  text: |-
+    # Sign demands
+
+    {% include an-blind-post.html petition="https://actionnetwork.org/api/v2/petitions/81ea4655-f544-43eb-b3c4-ace557bafef7/" %}
+  id: sign-demands
+  buttons: []
+  decoration: ''
+  background_image: ''
 - buttons: []
   text: |-
     # Join us

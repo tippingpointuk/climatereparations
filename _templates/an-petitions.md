@@ -1,15 +1,17 @@
 ---
 slug: an-petitions
 template: |-
-    # {{ page.title }}
+  # {{ page.title }}
 
-    {{ image }}
+  {{ image }}
 
-    {{ content }}
+  {{ content }}
 
-    > **To:** {{ petition_target }}
-    >
-    > {{ petition_text }}
+  > **To:** {{ petition_target }}
+  >
+  > {{ petition_text }}
 
-    {{ form }}
+  {{ form }}
+title: Action Network Petitions
+
 ---

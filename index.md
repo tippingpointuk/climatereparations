@@ -6,20 +6,16 @@ blocks:
   text: |-
     # Join us
 
-    Sign on to our [stop/start demands](#demands) to join us in working towards
-    climate reparations. Your data will be processed according to our
-    [privacy policy](https://tippingpointuk.org/privacy).
+    Sign on to our [stop/start demands](#demands "Demands") to access our newsletter and join us in working towards climate reparations. Your data will be processed according to our [privacy policy](http://tpnt.uk/privacy "Privacy Policy").
 
     {% include an-blind-post.html petition="https://actionnetwork.org/api/v2/petitions/81ea4655-f544-43eb-b3c4-ace557bafef7/" %}
-  decoration: "![](/assets/images/whatsapp-image-2021-10-11-at-20-53-42.jpeg)"
+  decoration: "![](/assets/images/logo.png)"
   map: false
   background_image: ''
   id: join
 - buttons:
-  - text: Stop demands
+  - text: Demands
     target: "#demands"
-  - text: Start demands
-    target: "#demands-start"
   decoration: ''
   text: |-
     ## Climate justice means 1.5C to stay alive
@@ -31,33 +27,21 @@ blocks:
     We are hearing greenwash pledges to get to ‘Net Zero’ with techno-fixes and more false solutions. **Net zero is NOT zero**. To meet the UK’s fair share of 1.5C to stay alive, we need a rapid and justice-centred transition to get to **real zero carbon emissions by 2030.** That’s just 9 years from now. So how do we get there and how can we force our government to go about it equitably?
   map: false
   background_image: ''
-  id: why
+  id: demands
 - buttons: []
   text: "# We demand that the UK Government: \n\n{% assign demands =  site.data.demands
     | where: \"type\", \"Stop\" %}\n{% include demands.html demands=demands %}"
   decoration: |-
-    ## The first thing to do when you find yourself in a hole is to **stop** digging.
-
-    > #### There are red lines the UK government cannot cross if it wants to maintain credibility as a genuine climate leader at COP26.  We hope you will join our groups in coming together on 6th November to call for the UK to meet these **Stop** and **Start** **demands**.
-  map: false
-  background_image: ''
-  id: demands
-- buttons: []
-  text: |-
     # And instead:
 
-    {% assign demands =  site.data.demands | where: "type", "Start to" %}
-    {% include demands.html demands=demands %}
+    {% assign demands =  site.data.demands | where: "type", "Start to" %} {% include demands.html demands=demands %}
 
     ## Sign demands
 
     {% include an-blind-post.html petition="https://actionnetwork.org/api/v2/petitions/81ea4655-f544-43eb-b3c4-ace557bafef7/" %}
-  decoration: "> ## Our government must **start** providing the care and reparations
-    that communities here and around the world need to protect themselves and repair
-    the damage already done."
   map: false
   background_image: ''
-  id: demands-start
+  id: ''
 - buttons: []
   text: |-
     # Find out more
@@ -102,9 +86,9 @@ header:
   text: |-
     # Climate Reparations
 
-    Our economic, political and social infrastructures are failing to protect life, and need repairing. On 6th November, we marched from the Bank of England
+    Our economic, political and social infrastructures are failing to protect life, and need repairing.
 
-    Co-lead by  {{ partners }} and [others](#groups). We demand systems change.
+    We are a movement made up of social and climate justice groups demanding a change to the systems causing climate breakdown. Our coalition includes {{ partners }} and [others](#groups).
   buttons:
   - text: Demands
     target: "#demands"

@@ -1,10 +1,12 @@
 ---
-layout: page 
+layout: page
 slug: an-advocacy_campaigns
 template: |-
-    # {{ title }}
+  # {{ title }}
 
-    {{ content }}
+  {{ content }}
 
-    {{ page.embed_code }}
+  {{ page.embed_code }}
+title: Action Network Letter/Call Campaigns
+
 ---

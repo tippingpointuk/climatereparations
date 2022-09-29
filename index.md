@@ -4,7 +4,7 @@ image: ''
 blocks:
 - buttons:
   - text: Demands
-    target: "#demands"
+    target: "#demands-start-stop"
   decoration: ''
   text: |-
     ## Climate justice means 1.5C to stay alive
@@ -30,7 +30,7 @@ blocks:
     {% include an-blind-post.html petition="https://actionnetwork.org/api/v2/petitions/81ea4655-f544-43eb-b3c4-ace557bafef7/" %}
   map: false
   background_image: ''
-  id: ''
+  id: demands-start-stop
 - buttons: []
   text: |-
     # Join us

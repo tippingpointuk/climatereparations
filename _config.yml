@@ -35,6 +35,17 @@ collections:
     output: false
   authors:
     output: true
+  petitions:
+    output: true
+  events:
+    output: true
+  campaigns:
+    output: true
+  forms:
+    output: true
+  advocacy_campaigns:
+    output: true
+    permalink: /:categories/:slug/
 defaults:
 - scope:
     path: google2b8ceaa38de54302.html
@@ -75,9 +86,26 @@ airtable:
       content: about
       slug: name
       layout: author
+  
+
+# Action Network Import
+action_network:
+  actions: false
+  import:
+    - name: events
+      layout: an-page
+    - name: petitions
+      layout: an-page
+    - name: forms
+      layout: an-page
+    - name: campaigns
+      layout: an-page
+    - name: advocacy_campaigns
+      layout: an-page
 
 exclude:
   - api
 plugins:
-- jekyll-airtable-import
+# - jekyll-airtable-import
 - jekyll-menus
+- jekyll-action-network

@@ -17,6 +17,7 @@ gem "jekyll-theme-chaos", git: "https://github.com/tippingpointuk/jekyll-theme-c
 
 group :jekyll_plugins do
   gem "jekyll-airtable-import", git: "https://github.com/tippingpointuk/jekyll-airtable-import", branch: "master"
+  gem "jekyll-action-network"
   # gem "jekyll-get-json", "~> 1.0"
 end
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

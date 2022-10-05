@@ -91,7 +91,7 @@ header:
   text: |-
     # Climate Reparations
 
-    Our economic, political and social infrastructures are failing to protect life, and need repairing.
+    Our economic, political and social infrastructure are failing to protect life, and need urgent repair.
 
     We are a movement made up of social and climate justice groups demanding a change to the systems causing climate breakdown. Our coalition includes {{ partners }} and [others](#groups).
   buttons:

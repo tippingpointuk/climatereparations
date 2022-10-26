@@ -93,12 +93,10 @@ header:
 
     Our economic, political and social infrastructure are failing to protect life, and need urgent repair.
 
-    We are a movement made up of social and climate justice groups demanding a change to the systems causing climate breakdown. Our coalition includes {{ partners }} and [others](#groups).
+    We are a movement made up of social and climate justice groups demanding a change to the systems causing climate breakdown. Join us on 12th of November to demand justice
   buttons:
-  - text: Demands
-    target: "#demands"
-  - text: Join Us
-    target: "#join"
+  - text: Find our more
+    target: "/events/climate-reparations-now-london-rally-on-12th-november-2022/"
   border_bottom:
     image: ''
     reflect: true

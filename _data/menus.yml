@@ -7,6 +7,9 @@ footer:
   weight: 2
   title: Sign up
 header:
+- url: "/#posts"
+  weight: 5
+  title: Posts
 - url: "/#join"
   weight: 1
   title: Join
@@ -19,6 +22,3 @@ header:
 - url: "/#demands"
   weight: 2
   title: Demands
-- url: "/#posts"
-  weight: 5
-  title: Blog

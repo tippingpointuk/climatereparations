@@ -2,6 +2,17 @@
 layout: page
 image: ''
 blocks:
+- text: |-
+    # Upcoming
+
+    {% assign posts = site.events %}
+
+    {% include event-gallery.html date_field="start_date" limit=3 %}
+  decoration: ''
+  map: false
+  id: ''
+  buttons: []
+  background_image: ''
 - buttons:
   - text: Demands
     target: "#demands-start-stop"

@@ -5,7 +5,7 @@ blocks:
 - text: |-
     # Upcoming
 
-    {% assign posts = site.events %}
+    {% assign events  = site.events %}
 
     {% include event-gallery.html date_field="start_date" limit=3 %}
   decoration: ''

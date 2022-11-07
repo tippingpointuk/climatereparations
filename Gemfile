@@ -16,7 +16,7 @@ gem "jekyll-theme-chaos", git: "https://github.com/tippingpointuk/jekyll-theme-c
 # gem "jekyll-theme-chaos", "~> 0.1.1"
 
 group :jekyll_plugins do
-  gem "jekyll-airtable-import", git: "https://github.com/tippingpointuk/jekyll-airtable-import", branch: "master"
+  gem "jekyll-airtable-import", " ~>0.1.5"
   gem "jekyll-action-network"
   # gem "jekyll-get-json", "~> 1.0"
 end

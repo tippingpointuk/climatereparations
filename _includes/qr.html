@@ -1,0 +1,11 @@
+<div class="target qrcode" id="{{ include.id | default: 'qr' }}">
+    {{ include.url | qr }}
+</div>
+<style>
+    .target:not(:target) {
+        display: none;
+    }
+    .target:target{
+        display: block;
+    }
+</style>

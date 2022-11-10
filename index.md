@@ -3,7 +3,7 @@ layout: page
 image: ''
 blocks:
 - text: |-
-    # Upcoming
+    # Upcoming Events
 
     {% assign events  = site.events %}
 
@@ -29,12 +29,14 @@ blocks:
   background_image: ''
   id: demands
 - buttons: []
-  text: "# We demand that the UK Government: \n\n{% assign demands =  site.data.demands
-    | where: \"type\", \"Stop\" %}\n{% include demands.html demands=demands %}"
-  decoration: |-
+  text: |-
     # And instead:
 
     {% assign demands =  site.data.demands | where: "type", "Start to" %} {% include demands.html demands=demands %}
+  decoration: |-
+    # We demand that the UK Government:
+
+    {% assign demands =  site.data.demands | where: "type", "Stop" %} {% include demands.html demands=demands %}
   map: false
   background_image: ''
   id: demands-start-stop

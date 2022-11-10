@@ -7,7 +7,7 @@ blocks:
 
     {% assign events  = site.events %}
 
-    {% include events-gallery.html date_f_eld="start_date" limit=_3_ %}
+    {% include events-gallery.html date_field="start_date" limit=3 %}
   decoration: ''
   map: false
   id: ''

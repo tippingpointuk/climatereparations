@@ -10,7 +10,6 @@ image: ''
 credits: ''
 permalink: privacy
 summary: ''
-published: false
 
 ---
 The Climate Reparations network is hosted by Tipping Point UK, and our privacy policy that continues below applies to how we handle your data. In this case, Climate Reparations UK, Tipping Point UK and Climate Tipping Point UK Ltd refer to the same organisation and organisers.

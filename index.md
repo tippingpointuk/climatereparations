@@ -13,6 +13,14 @@ blocks:
   id: ''
   buttons: []
   background_image: ''
+- map: false
+  text: "# Demand Climate Reparations Now"
+  id: ''
+  buttons:
+  - text: Sign the petition
+    target: https://actionnetwork.org/petitions/climate-reparations-now/
+  decoration: ''
+  background_image: ''
 - buttons:
   - text: Demands
     target: "#demands-start-stop"

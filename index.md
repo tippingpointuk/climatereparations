@@ -7,7 +7,7 @@ blocks:
 
     {% assign events  = site.events %}
 
-    {% include events-gallery.html date_field="start_date" limit=3 %}
+    {% include events-gallery.html date_field="start_date" limit=_2 %}
   decoration: ''
   map: false
   id: ''
@@ -107,7 +107,6 @@ header:
     Our economic, political and social infrastructure are failing to protect life, and need urgent repair.
 
     We are a movement made up of social and climate justice groups demanding a change to the systems causing climate breakdown. Join us on 12th of November to demand justice
-  # {% include an-email-only-form.html endpoint="https://actionnetwork.org/api/v2/forms/0376cbc6-f227-4a5a-a432-55335797e133/submissions" jump="upcoming" %}
   buttons:
   - text: Find our more
     target: "/events/climate-reparations-now-london-rally-on-12th-november-2022/"

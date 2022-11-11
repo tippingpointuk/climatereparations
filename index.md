@@ -5,9 +5,9 @@ blocks:
 - text: |-
     Britain is the [5th largest](https://www.carbonbrief.org/analysis-which-countries-are-historically-responsible-for-climate-change/#national) historical polluter of fossil fuels and has built its wealth through centuries of colonial extraction. Now the UK Government seeks to avoid responsibility for the loss and damage it continues to cause for those who've done the least to cause the climate crisis, through its continued expansion and burning of fossil fuels.
 
-    The largest 6 fossil fuel companies made enough profit in the first six months of 2022 to cover the costs of loss and damage in the Global South for 6 months. The British government has the power to tax fossil fuel companies, but has made the political choice not to make polluters pay for the damages they’ve caused.
+    The largest 6 fossil fuel companies made [enough profit](https://www.bloomberg.com/news/articles/2022-10-23/fossil-fuel-profits-can-easily-cover-climate-losses-report-says?leadSource=uverify%20wall) in the first six months of 2022 to cover the costs of loss and damage in the Global South for 6 months. The British government has the power to tax fossil fuel companies, but has made the political choice not to make polluters pay for the damages they’ve caused.
 
-    All while people around the world are suffering due to the impacts of climate change. Pakistan contributed less than 1% of global emissions, but the recent floods affected more than 33 million people – destroying homes, crops, livelihoods and lives.
+    All while people around the world are suffering due to the impacts of climate change. Pakistan contributed less than [1% of global emissions](https://www.theguardian.com/world/2022/aug/30/pakistan-monsoon-on-steroids-flooding-warning-antonio-guterres), but the recent floods affected more than 33 million people – destroying homes, crops, livelihoods and lives.
 
     Climate Reparations means repair for the harm of the climate crisis, paid for by the governments and corporations that have profited from it over hundreds of years. It means just transition to renewable energy; an end to debt traps, exploitation and extraction.
 
@@ -139,9 +139,11 @@ header:
 
     {% include qr.html url='https://c.tpnt.uk#qr' %}
 
-    Our economic, political and social infrastructure are failing to protect life, and need urgent repair.
+    We believe that the British Government should tax the obscene profits of fossil fuel corporations who are worsening the climate crisis to pay the compensation and reparations that we owe to countries and communities that have contributed the least but are experiencing the worst climate loss and damage.
 
-    We are a movement made up of social and climate justice groups demanding a change to the systems causing climate breakdown. Join us on 12th of November to demand justice
+    Let's make polluters pay climate reparations to ensure that communities both at home and around the world can repair from the loss and damage caused by the climate crisis.
+
+    {% include an-email-only-form.html button="Sign" endpoint="https://actionnetwork.org/api/v2/petitions/6060da0f-e68b-4d99-b924-885d47f286e2/signatures" %}
   buttons:
   - text: Find our more
     target: "/events/climate-reparations-now-london-rally-on-12th-november-2022/"

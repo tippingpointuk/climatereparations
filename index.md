@@ -14,6 +14,8 @@ blocks:
     Climate reparations also means better housing, education, healthcare and safe migration—for working class communities all over the world. Paid for by taxing companies that profit from destruction of people and the planet. A global Green New Deal.
 
     Add your name and help us build a movement of movements that defunds climate chaos and help us create a system of care and repair everywhere.
+
+    {% include an-email-only-form.html button="Sign" endpoint="https://actionnetwork.org/api/v2/petitions/6060da0f-e68b-4d99-b924-885d47f286e2/signatures" %}
   decoration: ''
   map: false
   id: ''

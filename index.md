@@ -137,7 +137,7 @@ header:
 
     Let's make polluters pay climate reparations to ensure that communities both at home and around the world can repair from the loss and damage caused by the climate crisis.
 
-    {% include an-email-only-form.html button="Sign" endpoint="https://actionnetwork.org/api/v2/petitions/6060da0f-e68b-4d99-b924-885d47f286e2/signatures" %}
+    {% include an-form/base.html lines="email,first_name,submit." %}
 
     Sign the petition subscribe
   buttons: []

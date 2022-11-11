@@ -144,9 +144,7 @@ header:
     Let's make polluters pay climate reparations to ensure that communities both at home and around the world can repair from the loss and damage caused by the climate crisis.
 
     {% include an-email-only-form.html button="Sign" endpoint="https://actionnetwork.org/api/v2/petitions/6060da0f-e68b-4d99-b924-885d47f286e2/signatures" %}
-  buttons:
-  - text: Find our more
-    target: "/events/climate-reparations-now-london-rally-on-12th-november-2022/"
+  buttons: []
   border_bottom:
     image: ''
     reflect: true

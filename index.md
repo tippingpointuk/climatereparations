@@ -21,14 +21,6 @@ blocks:
   id: ''
   buttons: []
   background_image: ''
-- map: false
-  text: "# Demand Climate Reparations Now"
-  id: ''
-  buttons:
-  - text: Sign the petition
-    target: https://actionnetwork.org/petitions/climate-reparations-now/
-  decoration: "![](/assets/images/ig-sign-the-petition.png)"
-  background_image: ''
 - text: |-
     # Upcoming Events
 

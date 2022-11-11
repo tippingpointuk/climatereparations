@@ -64,4 +64,4 @@ layout: page
 
 {% capture template_name %}an-{{ page.action_type }}{% endcapture %}
 {% assign t = site.templates | where: "slug",  template_name | first  %}
-{{ t.template | markdownify | liquify }}
+{{ t.template | liquify | markdownify }}

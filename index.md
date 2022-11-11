@@ -3,6 +3,31 @@ layout: page
 image: ''
 blocks:
 - text: |-
+    Britain is the [5th largest](https://www.carbonbrief.org/analysis-which-countries-are-historically-responsible-for-climate-change/#national) historical polluter of fossil fuels and has built its wealth through centuries of colonial extraction. Now the UK Government seeks to avoid responsibility for the loss and damage it continues to cause for those who've done the least to cause the climate crisis, through its continued expansion and burning of fossil fuels.
+
+    The largest 6 fossil fuel companies made enough profit in the first six months of 2022 to cover the costs of loss and damage in the Global South for 6 months. The British government has the power to tax fossil fuel companies, but has made the political choice not to make polluters pay for the damages they’ve caused.
+
+    All while people around the world are suffering due to the impacts of climate change. Pakistan contributed less than 1% of global emissions, but the recent floods affected more than 33 million people – destroying homes, crops, livelihoods and lives.
+
+    Climate Reparations means repair for the harm of the climate crisis, paid for by the governments and corporations that have profited from it over hundreds of years. It means just transition to renewable energy; an end to debt traps, exploitation and extraction.
+
+    Climate reparations also means better housing, education, healthcare and safe migration—for working class communities all over the world. Paid for by taxing companies that profit from destruction of people and the planet. A global Green New Deal.
+
+    Add your name and help us build a movement of movements that defunds climate chaos and help us create a system of care and repair everywhere.
+  decoration: ''
+  map: false
+  id: ''
+  buttons: []
+  background_image: ''
+- map: false
+  text: "# Demand Climate Reparations Now"
+  id: ''
+  buttons:
+  - text: Sign the petition
+    target: https://actionnetwork.org/petitions/climate-reparations-now/
+  decoration: "![](/assets/images/ig-sign-the-petition.png)"
+  background_image: ''
+- text: |-
     # Upcoming Events
 
     {% assign events  = site.events %}
@@ -110,7 +135,7 @@ header:
     link: ''
     location: left
   text: |-
-    # Climate Reparations
+    # Climate Reparations Now
 
     {% include qr.html url='https://c.tpnt.uk#qr' %}
 

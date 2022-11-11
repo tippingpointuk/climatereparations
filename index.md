@@ -114,6 +114,8 @@ header:
 
     {% include qr.html url='https://c.tpnt.uk#qr' %}
 
+    {% include counter.html %}
+
     Our economic, political and social infrastructure are failing to protect life, and need urgent repair.
 
     We are a movement made up of social and climate justice groups demanding a change to the systems causing climate breakdown. Join us on 12th of November to demand justice

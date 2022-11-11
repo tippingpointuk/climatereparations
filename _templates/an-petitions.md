@@ -4,7 +4,9 @@ template: |-
   # {{ page.title }}
 
   {% capture page_url %}{{ site.url }}{{ page.url | relative_url }}{% endcapture %}
-  {% include qr.html url=page_url %}
+  {% include accordion-start.html title="Share via QR Code" %}
+  {{ page_url | qr }}
+  {% include accordion-end.html %}
 
   {{ image }}
 

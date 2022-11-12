@@ -14,8 +14,10 @@ blocks:
     Climate reparations also means better housing, education, healthcare and safe migration—for working class communities all over the world. Paid for by taxing companies that profit from destruction of people and the planet. A global Green New Deal.
 
     Add your name and help us build a movement of movements that defunds climate chaos and help us create a system of care and repair everywhere.
-  decoration: |-
-    <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v5/petition/climate-reparations-now?format=js&source=widget'></script><div id='can-petition-area-climate-reparations-now' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
+  decoration: "<link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css'
+    rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v5/petition/climate-reparations-now?format=js&source=widget'></script><div
+    id='can-petition-area-climate-reparations-now' style='width: 100%'><!-- this div
+    is the target for our HTML insertion --></div>"
   map: false
   id: why
   buttons: []
@@ -129,6 +131,8 @@ header:
     location: left
   text: |-
     {% include qr.html url='https://c.tpnt.uk#qr' %}
+
+    ## Demand Climate Reparations Now
 
     We believe that the British Government should tax the obscene profits of fossil fuel corporations who are worsening the climate crisis to pay the compensation and reparations that we owe to countries and communities that have contributed the least but are experiencing the worst climate loss and damage.
 

@@ -14,9 +14,8 @@ blocks:
     Climate reparations also means better housing, education, healthcare and safe migration—for working class communities all over the world. Paid for by taxing companies that profit from destruction of people and the planet. A global Green New Deal.
 
     Add your name and help us build a movement of movements that defunds climate chaos and help us create a system of care and repair everywhere.
-
-    {% include an-email-only-form.html button="Sign" endpoint="https://actionnetwork.org/api/v2/petitions/6060da0f-e68b-4d99-b924-885d47f286e2/signatures" %}
-  decoration: ''
+  decoration: |-
+    <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v5/petition/climate-reparations-now?format=js&source=widget'></script><div id='can-petition-area-climate-reparations-now' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
   map: false
   id: why
   buttons: []
@@ -129,17 +128,15 @@ header:
     link: ''
     location: left
   text: |-
-    # Climate Reparations Now
-
     {% include qr.html url='https://c.tpnt.uk#qr' %}
 
     We believe that the British Government should tax the obscene profits of fossil fuel corporations who are worsening the climate crisis to pay the compensation and reparations that we owe to countries and communities that have contributed the least but are experiencing the worst climate loss and damage.
 
     Let's make polluters pay climate reparations to ensure that communities both at home and around the world can repair from the loss and damage caused by the climate crisis.
 
-    {% include an-form/base.html lines="email,first_name,submit." %}
+    Sign the petition and subscribe here.
 
-    Sign the petition subscribe
+    {% include an-form/base.html endpoint="https://actionnetwork.org/api/v2/petitions/6060da0f-e68b-4d99-b924-885d47f286e2/signatures" lines="first-name,email.postal-code,phone-number.submit." button="Sign"  %}
   buttons: []
   border_bottom:
     image: ''

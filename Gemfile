@@ -12,7 +12,8 @@ gem "jekyll", "~> 4.2.0"
 # gem 'nokogiri'
 
 # The theme
-gem "jekyll-theme-chaos", git: "https://github.com/tippingpointuk/jekyll-theme-chaos", branch: "master"
+# gem "jekyll-theme-chaos", git: "https://github.com/tippingpointuk/jekyll-theme-chaos", branch: "master"
+gem "jekyll-theme-chaos", path: '/home/joe/Documents/Work/TippingPointUK/Tools/Themes/jekyll-theme-chaos' 
 # gem "jekyll-theme-chaos", "~> 0.1.1"
 
 gem "rqrcode", "~> 2.0"

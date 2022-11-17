@@ -21,7 +21,7 @@ blocks:
   map: false
   id: why
   buttons: []
-  background_image: ''
+  background_image: "/assets/images/aaa_8213.jpg"
 - text: |-
     # Upcoming Events
 

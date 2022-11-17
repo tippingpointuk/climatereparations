@@ -1,6 +1,6 @@
 ---
 layout: page
-image: ''
+image: "/assets/images/aaa_8213.jpg"
 blocks:
 - text: |-
     Britain is the [5th largest](https://www.carbonbrief.org/analysis-which-countries-are-historically-responsible-for-climate-change/#national) historical polluter of fossil fuels and has built its wealth through centuries of colonial extraction. Now the UK Government seeks to avoid responsibility for the loss and damage it continues to cause for those who've done the least to cause the climate crisis, through its continued expansion and burning of fossil fuels.
@@ -112,7 +112,7 @@ blocks:
 - text: |-
     # Co-leaders
 
-    This bloc is supported by a number of UK organisations and collectives as part of the [global day for climate justice](https://cop26coalition.org/gda/) organised by the COP26 Coalition. Join our Bloc by adding your group or organisation below.
+    This bloc is supported by a number of UK organisations and collectives as part of the [global day for climate justice](https://climatejustice.uk) organised by the Climate Justice Coalition. Join our network by adding your group or organisation below.
 
     {% include partner-list.html background='light' %}
   buttons:

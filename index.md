@@ -39,7 +39,7 @@ blocks:
   buttons:
   - text: Sign the petition
     target: https://actionnetwork.org/petitions/climate-reparations-now/
-  decoration: "![](/assets/images/ig-sign-the-petition.png)"
+  decoration: "![](/assets/images/aaa_8213.jpg)"
   background_image: ''
 - buttons:
   - text: Demands

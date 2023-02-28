@@ -22,17 +22,6 @@ blocks:
   id: why
   buttons: []
   background_image: "/assets/images/aaa_8213.jpg"
-- text: |-
-    # Upcoming Events
-
-    {% assign events  = site.events %}
-
-    {% include events-gallery.html date_field="start_date" limit=3 %}
-  decoration: ''
-  map: false
-  id: ''
-  buttons: []
-  background_image: ''
 - map: false
   text: "# Demand Climate Reparations Now"
   id: ''
@@ -68,15 +57,6 @@ blocks:
   map: false
   background_image: ''
   id: demands-start-stop
-- map: false
-  text: |-
-    # Sign demands
-
-    {% include an-blind-post.html petition="https://actionnetwork.org/api/v2/petitions/81ea4655-f544-43eb-b3c4-ace557bafef7/" %}
-  id: sign-demands
-  buttons: []
-  decoration: ''
-  background_image: ''
 - buttons: []
   text: |-
     # Join us

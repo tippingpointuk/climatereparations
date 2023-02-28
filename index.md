@@ -69,16 +69,6 @@ blocks:
   background_image: ''
   id: join
 - text: |-
-    # Posts
-
-    {% assign posts = site.posts %}
-    {% include blog-list.html %}
-  map: false
-  id: ''
-  buttons: []
-  decoration: ''
-  background_image: ''
-- text: |-
     # Co-leaders
 
     This bloc is supported by a number of UK organisations and collectives as part of the [global day for climate justice](https://climatejustice.uk) organised by the Climate Justice Coalition. Join our network by adding your group or organisation below.

@@ -61,7 +61,7 @@ blocks:
   text: |-
     # Join us
 
-    Sign on to our [stop/start demands](#demands "Demands") to access our newsletter and join us in working towards climate reparations. Your data will be processed according to our [privacy policy](http://tpnt.uk/privacy "Privacy Policy").
+    Sign up here for our newsletter! Your data will be processed according to our [privacy policy](http://tpnt.uk/privacy "Privacy Policy").
 
     {% include an-blind-post.html petition="https://actionnetwork.org/api/v2/petitions/81ea4655-f544-43eb-b3c4-ace557bafef7/" %}
   decoration: "![](/assets/images/favicon.png)"

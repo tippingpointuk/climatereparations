@@ -68,17 +68,6 @@ blocks:
   map: false
   background_image: ''
   id: join
-- buttons: []
-  text: |-
-    # Find out more
-
-    Some frequently asked questions and answers
-
-    {% include accordion.html data=site.data.faqs %}
-  decoration: ''
-  map: false
-  background_image: ''
-  id: faqs
 - text: |-
     # Posts
 
@@ -102,6 +91,17 @@ blocks:
   map: false
   background_image: ''
   id: groups
+- buttons: []
+  text: |-
+    # Find out more
+
+    Some frequently asked questions and answers
+
+    {% include accordion.html data=site.data.faqs %}
+  decoration: ''
+  map: false
+  background_image: ''
+  id: faqs
 credits: ''
 header:
   full: true

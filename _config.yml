@@ -1,32 +1,31 @@
----
 title: Climate Reparations
 email: ''
-tagline: 'Climate Justice Now!'
-description: There can be no climate justice without gender, racial, social, economic, health, migrant or environmental justice.
-url: https://climatereparations.uk
+tagline: Climate Justice Now!
+description: >-
+  There can be no climate justice without gender, racial, social, economic,
+  health, migrant or environmental justice.
+url: 'https://climatereparations.uk'
 permalink: pretty
-
 theme: jekyll-theme-chaos
-
-background_color: "#f4c6dc"
-brand_color: "#9e61ae"
-accent_color: "#f69008"
-heading_font: 'Coiny'
-logo: '/assets/images/logo_text_yellow.png'
-logo_light: '/assets/images/logo_text_white.png'
-logo_square: '/assets/images/icon_small_yellow.png'
+background_color: '#f4c6dc'
+brand_color: '#9e61ae'
+accent_color: '#f69008'
+heading_font: Coiny
+logo: /assets/images/logo_text_yellow.png
+logo_light: /assets/images/logo_text_white.png
+logo_square: /assets/images/icon_small_yellow.png
 invert_brand_text: true
 invert_accent_text: false
 instagram: ''
 twitter: ''
 facebook: ''
-counter: 06-Nov-2021 11:30am
+counter: '06-Nov-2021 11:30am'
 timezone: Europe/London
 future: true
 copyright_notice: ''
 collections:
   posts:
-    permalink: "/:title/"
+    permalink: '/:title/'
   actions:
     output: true
   resources:
@@ -45,16 +44,16 @@ collections:
     output: true
   advocacy_campaigns:
     output: true
-    permalink: /:categories/:slug/
+    permalink: '/:categories/:slug/'
 defaults:
-- scope:
-    path: google2b8ceaa38de54302.html
-  values:
-    sitemap: false
-- scope:
-    path: admin/index.html
-  values:
-    sitemap: false
+  - scope:
+      path: google2b8ceaa38de54302.html
+    values:
+      sitemap: false
+  - scope:
+      path: admin/index.html
+    values:
+      sitemap: false
 include:
   - _redirects
 airtable:
@@ -73,10 +72,10 @@ airtable:
     table: tblfczlNzhMZaUFX5
     view: viweY75HGX6wZo6AR
     fields:
-    - Title
-    - URL
-    - Image
-    - Summary
+      - Title
+      - URL
+      - Image
+      - Summary
   demands:
     table: tblM8icDWIdPicHZS
     view: viwtvRVZyEyH8s3Ml
@@ -86,9 +85,6 @@ airtable:
       content: about
       slug: name
       layout: author
-  
-
-# Action Network Import
 action_network:
   actions: false
   import:
@@ -102,10 +98,9 @@ action_network:
       layout: an-page
     - name: advocacy_campaigns
       layout: an-page
-
 exclude:
   - api
 plugins:
-# - jekyll-airtable-import
-- jekyll-menus
-- jekyll-action-network
+  - jekyll-menus
+  - jekyll-action-network
+_template: config

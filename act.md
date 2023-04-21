@@ -8,8 +8,9 @@ top_quote: ''
 image: ''
 credits: ''
 summary: ''
-
+_template: page
 ---
+
 {% for c in site.collections %}
 {% if c.output and site[c.label].size > 0 %}
 {% include accordion-start.html title=c.label %}

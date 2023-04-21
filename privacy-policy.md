@@ -3,15 +3,17 @@ layout: page
 tags: []
 title: Privacy Policy
 top_image: ''
-top_quote: 'We take your data protection seriously. This Privacy Policy outlines what
-  information we collect about you and explains your rights and how we ensure we look
-  after your personal information securely. '
+top_quote: >-
+  We take your data protection seriously. This Privacy Policy outlines what
+  information we collect about you and explains your rights and how we ensure we
+  look after your personal information securely. 
 image: ''
 credits: ''
 permalink: privacy
 summary: ''
-
+_template: page
 ---
+
 The Climate Reparations network is hosted by Tipping Point UK, and our privacy policy that continues below applies to how we handle your data. In this case, Climate Reparations UK, Tipping Point UK and Climate Tipping Point UK Ltd refer to the same organisation and organisers.
 
 Tipping Point UK respects your privacy and is committed to protecting your personal information. We are transparent about the information we collect and how we will use it because we want you to keep taking action with us to build a tipping point for climate justice.

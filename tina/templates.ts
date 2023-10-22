@@ -702,12 +702,9 @@ export function templateFields() {
       label: "slug",
     },
     {
-      type: "string",
+      type: "rich-text",
       name: "template",
-      label: "template",
-      ui: {
-        component: "textarea",
-      },
+      label: "Template"
     },
   ] as TinaField[];
 }

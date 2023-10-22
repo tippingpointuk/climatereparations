@@ -19,7 +19,7 @@ gem "jekyll-theme-chaos", git: "https://github.com/tippingpointuk/jekyll-theme-c
 gem "rqrcode", "~> 2.0"
 
 group :jekyll_plugins do
-  gem "jekyll-airtable-import", " ~>0.1.5"
+  gem "jekyll-airtable-import", git: "https://github.com/tippingpointuk/jekyll-airtable-import/", branch: "ruby-3.2.2-"
   gem "jekyll-action-network"
   # gem "jekyll-get-json", "~> 1.0"
 end
@@ -32,3 +32,5 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+
+gem "webrick", "~> 1.8"

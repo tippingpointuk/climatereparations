@@ -11,17 +11,17 @@ const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
 
 export default defineConfig({
   branch,
-  clientId: "691a3973-339f-41a2-9b46-0153ffb1171d", // Get this from tina.io
-  token: "59885ff1c31006a2c1ae2fe48ae97f21ab45af83", // Get this from tina.io
+  clientId: "192cadb9-d8c3-4572-a401-8da13722c3b4", // Get this from tina.io
+  token: "2ceec44adbf19d7d68a254278a86d09111737410", // Get this from tina.io
   client: { skip: true },
   build: {
     outputFolder: "admin",
-    publicFolder: "assets/images",
+    publicFolder: "./",
   },
   media: {
     tina: {
-      mediaRoot: "",
-      publicFolder: "assets/images",
+      mediaRoot: "assets/images",
+      publicFolder: "",
     },
   },
   schema: {
@@ -30,7 +30,7 @@ export default defineConfig({
         format: "md",
         label: "Home Page",
         name: "home_page",
-        path: ".",
+        path: "",
         ui: {
           allowedActions: {
             create: false,
@@ -42,29 +42,14 @@ export default defineConfig({
         },
         fields: [
           {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: true,
-          },
-          {
-            type: "string",
-            name: "layout",
-            label: "layout",
-          },
-          {
             type: "object",
             name: "header",
             label: "Header",
             fields: [
               {
-                type: "string",
+                type: "rich-text",
                 name: "text",
                 label: "Text",
-                ui: {
-                  component: "textarea",
-                },
               },
               {
                 type: "object",
@@ -106,27 +91,24 @@ export default defineConfig({
           {
             type: "object",
             name: "blocks",
-            label: "Blocks",
+            label: "Main Blocks",
             list: true,
             fields: [
               {
                 type: "boolean",
                 name: "map",
-                label: "map",
+                label: "Show Map as Picture",
               },
               {
-                type: "string",
+                type: "rich-text",
                 name: "text",
                 label: "Text",
-                ui: {
-                  component: "textarea",
-                },
               },
               {
                 type: "string",
                 name: "custom_id",
                 nameOverride: "id",
-                label: "JumpLink",
+                label: "Jump Link - the #link to this section of the page",
               },
               {
                 type: "object",
@@ -147,17 +129,14 @@ export default defineConfig({
                 ],
               },
               {
-                type: "string",
+                type: "rich-text",
                 name: "decoration",
-                label: "Decoration",
-                ui: {
-                  component: "textarea",
-                },
+                label: "Decoration - Content Above the Image",
               },
               {
                 type: "image",
                 name: "background_image",
-                label: "Background Image",
+                label: "Background Image of Decoration",
               },
             ],
           },
@@ -170,7 +149,7 @@ export default defineConfig({
           {
             type: "string",
             name: "credits",
-            label: "Credits",
+            label: "Credits to add at the bottom of the page",
             ui: {
               component: "textarea",
             },
@@ -184,25 +163,6 @@ export default defineConfig({
       },
       {
         format: "md",
-        label: "Resources",
-        name: "resources",
-        path: "_resources",
-        match: {
-          include: "**/*",
-        },
-        fields: [
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: true,
-          },
-          ...resourceFields(),
-        ],
-      },
-      {
-        format: "md",
         label: "Templates",
         name: "templates",
         path: "_templates",
@@ -210,13 +170,6 @@ export default defineConfig({
           include: "**/*",
         },
         fields: [
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: true,
-          },
           ...templateFields(),
         ],
       },
@@ -224,7 +177,7 @@ export default defineConfig({
         format: "yml",
         label: "Main Site Config",
         name: "main_site_config",
-        path: ".",
+        path: "",
         ui: {
           allowedActions: {
             create: false,
@@ -342,98 +295,6 @@ export default defineConfig({
             type: "string",
             name: "copyright_notice",
             label: "copyright_notice",
-          },
-          {
-            type: "object",
-            name: "collections",
-            label: "collections",
-            fields: [
-              {
-                type: "object",
-                name: "posts",
-                label: "posts",
-                fields: [
-                  {
-                    type: "string",
-                    name: "permalink",
-                    label: "permalink",
-                  },
-                ],
-              },
-              {
-                type: "object",
-                name: "faqs",
-                label: "faqs",
-                fields: [
-                  {
-                    type: "boolean",
-                    name: "output",
-                    label: "output",
-                  },
-                  {
-                    type: "string",
-                    name: "permalink",
-                    label: "permalink",
-                  },
-                ],
-              },
-              {
-                type: "object",
-                name: "trainings",
-                label: "trainings",
-                fields: [
-                  {
-                    type: "boolean",
-                    name: "output",
-                    label: "output",
-                  },
-                ],
-              },
-              {
-                type: "object",
-                name: "actions",
-                label: "actions",
-                fields: [
-                  {
-                    type: "boolean",
-                    name: "output",
-                    label: "output",
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            type: "object",
-            name: "defaults",
-            label: "defaults",
-            list: true,
-            fields: [
-              {
-                type: "object",
-                name: "scope",
-                label: "scope",
-                fields: [
-                  {
-                    type: "string",
-                    name: "path",
-                    label: "path",
-                  },
-                ],
-              },
-              {
-                type: "object",
-                name: "values",
-                label: "values",
-                fields: [
-                  {
-                    type: "boolean",
-                    name: "sitemap",
-                    label: "sitemap",
-                  },
-                ],
-              },
-            ],
           },
           {
             type: "object",
@@ -566,24 +427,6 @@ export default defineConfig({
           },
           {
             type: "object",
-            name: "jekyll_get_json",
-            label: "jekyll_get_json",
-            list: true,
-            fields: [
-              {
-                type: "string",
-                name: "data",
-                label: "data",
-              },
-              {
-                type: "string",
-                name: "json",
-                label: "json",
-              },
-            ],
-          },
-          {
-            type: "object",
             name: "map",
             label: "map",
             fields: [
@@ -599,14 +442,42 @@ export default defineConfig({
               },
             ],
           },
-          {
-            type: "string",
-            name: "plugins",
-            label: "plugins",
-            list: true,
-          },
         ],
       },
+      {
+        format: "md",
+        label: "Pages",
+        name: "page",
+        path: "",
+        match: {
+          exclude: "index"
+        },
+        fields: [
+          {
+            name: "title",
+            label: "Title",
+            type: "string",
+            isTitle: true,
+            required: true
+          },
+          {
+            name: "image",
+            label: "Share Image",
+            type: "image",
+          },
+          {
+            name: "top_image",
+            label: "Top Image",
+            type: "image",
+          },
+          {
+            name: "body",
+            label: "Body",
+            type: "rich-text",
+            isBody: true
+          }
+        ]
+      }
     ],
   },
 });

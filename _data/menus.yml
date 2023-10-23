@@ -1,4 +1,23 @@
 ---
+menus:
+- type: header
+  items:
+  - url: "/#join"
+    title: Join
+  - url: "/#demands"
+    title: Demands
+  - url: "/#why"
+    title: Why
+  - url: "/#find-out-more"
+    title: FAQs
+  - url: "/#posts"
+    title: Posts
+- type: footer
+  items: 
+  - url: "/#demands"
+    title: Demands
+  - url: "/#join"
+    title: Sign up
 footer:
 - url: "/#demands"
   weight: 1
@@ -6,19 +25,4 @@ footer:
 - url: "/#join"
   weight: 2
   title: Sign up
-header:
-- url: "/#posts"
-  weight: 5
-  title: Posts
-- url: "/#join"
-  weight: 1
-  title: Join
-- url: "/#why"
-  weight: 3
-  title: Why
-- url: "/#find-out-more"
-  weight: 4
-  title: FAQs
-- url: "/#demands"
-  weight: 2
-  title: Demands
+

@@ -1,5 +1,5 @@
 import { defineConfig } from "tinacms";
-import { block_layoutFields } from "./templates";
+import { block_layoutFields, menuItemFields } from "./templates";
 import { configFields } from "./templates";
 import { pageFields } from "./templates";
 import { resourceFields } from "./templates";
@@ -475,6 +475,43 @@ export default defineConfig({
             label: "Body",
             type: "rich-text",
             isBody: true
+          }
+        ]
+      },
+      {
+        format: "yml",
+        label: "Menus",
+        name: "menus",
+        path: "_data",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "menus"
+        },
+        fields: [
+          {
+            type: "object",
+            label: "Menus",
+            name: "menus",
+            list: true,
+            fields: [
+              {
+                type: "string",
+                name: "type",
+                label: "Menu Type"
+              },
+              {
+                type: "object",
+                name: "items",
+                label: "Menu Items",
+                list: true,
+                fields: [...menuItemFields()]
+              }
+            ]
           }
         ]
       }

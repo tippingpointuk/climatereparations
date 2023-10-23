@@ -101,6 +101,5 @@ action_network:
 exclude:
   - api
 plugins:
-  - jekyll-menus
   - jekyll-action-network
 _template: config

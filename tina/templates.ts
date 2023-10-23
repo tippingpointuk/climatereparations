@@ -708,3 +708,29 @@ export function templateFields() {
     },
   ] as TinaField[];
 }
+
+export function menuItemFields() {
+  const menuFields = [
+    {
+      type: "string",
+      name: "url",
+      label: "URL",
+      required: true
+    },
+    {
+      type: "string",
+      name: "title",
+      label: "Title",
+      required: true
+    }
+  ]
+  return [
+    ...menuFields,
+    {
+      type: "object",
+      name: "children",
+      required: false,
+      fields: menuFields
+    }
+  ] as TinaField[]
+}
